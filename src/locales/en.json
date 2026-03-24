@@ -795,201 +795,345 @@
       ]
     },
     "universeMode": {
-      "title": "dissidiaduellumfinalfantasy crystal guide",
-      "subtitle": "Control crystal cycles to own the Bravery economy",
+      "moduleName": "dissidiaduellumfinalfantasy crystal guide",
+      "title": "Dissidia Duellum Final Fantasy Crystal Guide",
+      "eyebrow": "Understand the match economy",
+      "intro": "Every match revolves around one core loop: purify crystals, build Bravery, unleash Bravery Burst, and race to defeat the boss before the enemy team.",
       "quickFacts": [
         {
-          "label": "Primary Economy",
-          "value": "Crystal purify rewards"
+          "label": "Match Goal",
+          "value": "Defeat the boss faster than the opposing team"
         },
         {
-          "label": "Tempo Driver",
-          "value": "Spawn-site rotation"
+          "label": "Main Resource",
+          "value": "Bravery"
         },
         {
-          "label": "Punish Window",
-          "value": "Enemy mistimed duels"
-        },
-        {
-          "label": "Team Rule",
-          "value": "Never abandon crystal timing"
+          "label": "Best Team Trick",
+          "value": "A Burst Chain triggers when you and an ally unleash Bravery Burst on the boss at the same time"
         }
       ],
-      "features": [
+      "flowSteps": [
         {
-          "title": "Spawn-Site Reading",
-          "description": "Track monster clusters and pre-position before crystals open."
+          "step": "1",
+          "title": "Purify crystals",
+          "body": "Fight monsters near a crystal to purify it and gain a large amount of Bravery.",
+          "icon": "Globe"
         },
         {
-          "title": "Purify Priority",
-          "description": "Secure uncontested purifies before chasing low-value picks."
+          "step": "2",
+          "title": "Reach maximum Bravery",
+          "body": "Keep farming and rotating until your Bravery is full.",
+          "icon": "TrendingUp"
         },
         {
-          "title": "Deny and Delay",
-          "description": "Interrupt enemy crystal plans even when you cannot finish kills."
+          "step": "3",
+          "title": "Trigger Bravery Burst",
+          "body": "Unleash your power at maximum Bravery to open a damage window on the boss.",
+          "icon": "Sparkles"
         },
         {
-          "title": "Bravery Banking",
-          "description": "Treat each crystal as burst fuel for the next boss race."
+          "step": "4",
+          "title": "Finish the boss first",
+          "body": "Use abilities and team timing to burn down the boss before the enemy side does.",
+          "icon": "Trophy"
+        }
+      ],
+      "tipCards": [
+        {
+          "title": "Crystals are the engine",
+          "body": "Crystal purification is the fastest way to build the Bravery you need for a boss push.",
+          "icon": "Map"
         },
         {
-          "title": "Reset Discipline",
-          "description": "After each boss phase, path directly to the next objective cycle."
+          "title": "Burst timing matters",
+          "body": "Bravery Burst is strongest when your team coordinates it instead of spending it one by one.",
+          "icon": "Clock"
+        },
+        {
+          "title": "Boss damage wins games",
+          "body": "Skirmishes matter, but the real finish line is the boss.",
+          "icon": "AlertTriangle"
+        }
+      ],
+      "callouts": [
+        {
+          "label": "What to watch",
+          "text": "Track when your team is close to max Bravery so you can convert a small lead into a full boss window."
+        },
+        {
+          "label": "Comeback pattern",
+          "text": "A well-timed Burst Chain can quickly swing boss damage back in your favor."
+        },
+        {
+          "label": "New player focus",
+          "text": "Learn the resource loop first, then worry about perfect duels."
         }
       ]
     },
     "communityCreations": {
-      "title": "dissidiaduellumfinalfantasy game modes",
-      "subtitle": "Choose the right mode for practice, progress, and rankings",
+      "moduleName": "dissidiaduellumfinalfantasy game modes",
+      "title": "Dissidia Duellum Final Fantasy Game Modes",
+      "eyebrow": "Pick the right way to play",
+      "intro": "DDFF supports competitive, casual, and solo-friendly play. The main modes are built around climbing, practicing, and collecting rewards in different ways.",
       "quickFacts": [
         {
-          "label": "Ranked Battles",
-          "value": "Primary ladder progression"
+          "label": "Competitive Mode",
+          "value": "Season Rank Battles"
         },
         {
-          "label": "Casual Battles",
-          "value": "Low-risk build testing"
+          "label": "Low-Pressure Mode",
+          "value": "Casual Battles"
         },
         {
-          "label": "Challenge Content",
-          "value": "Role-focused practice"
+          "label": "Solo Practice Mode",
+          "value": "Challenge Battles"
         },
         {
-          "label": "Custom Rooms",
-          "value": "Controlled team drills"
+          "label": "Extra Multiplayer Option",
+          "value": "Custom Matches"
         }
       ],
-      "sections": [
+      "modeCards": [
         {
-          "title": "Ranked Battles",
-          "description": "Best for climbing once your trio and burst timing are stable."
+          "name": "Season Rank Battles",
+          "tag": "Competitive",
+          "summary": "Fight for ranking points during the active season and earn the highest Season Point payouts.",
+          "highlights": [
+            "Built for leaderboard climbing",
+            "Winning and losing affect rank points",
+            "Still the best source of Season Points"
+          ],
+          "icon": "Trophy"
         },
         {
-          "title": "Casual Battles",
-          "description": "Use for learning new characters and ability setups safely."
+          "name": "Casual Battles",
+          "tag": "Practice",
+          "summary": "Play multiplayer without changing your rank and test characters in a lower-pressure environment.",
+          "highlights": [
+            "Rank points do not change",
+            "Ability levels are synced",
+            "You can still earn sealed crystals"
+          ],
+          "icon": "Gamepad2"
         },
         {
-          "title": "Challenges",
-          "description": "Practice mechanics while collecting progression rewards."
+          "name": "Challenge Battles",
+          "tag": "Solo",
+          "summary": "Take on character-focused solo missions that double as a relaxed training mode.",
+          "highlights": [
+            "Every character has Challenge Battles",
+            "Auto-play is available",
+            "Repeat clears can earn Season Points and sealed crystals"
+          ],
+          "icon": "Shield"
         },
         {
-          "title": "Custom Matches",
-          "description": "Scrim with friends to refine comp coordination."
+          "name": "Custom Matches",
+          "tag": "Flexible",
+          "summary": "Set up your own battle room and choose the stage, enemies, and match parameters.",
+          "highlights": [
+            "Useful for private practice",
+            "Great for testing team setups",
+            "Good for controlled group play"
+          ],
+          "icon": "Settings"
+        }
+      ],
+      "bestFor": [
+        {
+          "playerType": "New players",
+          "recommendedMode": "Casual Battles",
+          "reason": "You can learn the pace of matches without risking rank.",
+          "icon": "Home"
         },
         {
-          "title": "Solo Content",
-          "description": "Improve route planning and role execution without queue pressure."
+          "playerType": "Solo learners",
+          "recommendedMode": "Challenge Battles",
+          "reason": "They are built to help you practice one character at a time.",
+          "icon": "Users"
         },
         {
-          "title": "Event Playlists",
-          "description": "Limited windows with focused objectives and rewards."
+          "playerType": "Rank climbers",
+          "recommendedMode": "Season Rank Battles",
+          "reason": "This is the core competitive ladder and the strongest Season Point source.",
+          "icon": "TrendingUp"
+        },
+        {
+          "playerType": "Premade groups",
+          "recommendedMode": "Custom Matches",
+          "reason": "You get more control over the room setup and conditions.",
+          "icon": "Briefcase"
         }
       ]
     },
     "theIsland": {
-      "title": "dissidiaduellumfinalfantasy season rewards",
-      "subtitle": "Plan your season point climb and milestone priorities",
+      "moduleName": "dissidiaduellumfinalfantasy season rewards",
+      "title": "Dissidia Duellum Final Fantasy Season Rewards",
+      "eyebrow": "Progress through the monthly season loop",
+      "intro": "Seasons run for about one month. Play battles, earn Season Points, and use them to claim rewards that expand your roster, story, and account progression.",
       "quickFacts": [
         {
-          "label": "Season Cycle",
-          "value": "Monthly cadence"
+          "label": "Season Length",
+          "value": "About one month"
         },
         {
-          "label": "Point Source",
-          "value": "Matches + challenges"
+          "label": "How to Earn Points",
+          "value": "Participate in battles across the season"
         },
         {
-          "label": "Reward Style",
-          "value": "Track milestones"
+          "label": "Best Point Source",
+          "value": "Season Rank Battles"
         },
         {
-          "label": "Priority",
-          "value": "Power first, style second"
+          "label": "Loss Protection",
+          "value": "Losses still award Season Points"
         }
       ],
-      "orders": [
+      "howItWorks": [
         {
-          "name": "Core Power Track",
-          "leader": "Performance Rewards",
-          "description": "Prioritize tickets, currency, and role-upgrade resources early."
+          "step": "1",
+          "title": "Join battles",
+          "body": "Play through the season in modes tied to the active reward cycle.",
+          "icon": "Calendar"
         },
         {
-          "name": "Roster Growth Track",
-          "leader": "Character Access",
-          "description": "Target unlock milestones that improve your team comp options."
+          "step": "2",
+          "title": "Earn Season Points",
+          "body": "Points are awarded through battle participation, with Season Rank Battles paying the most.",
+          "icon": "ClipboardCheck"
         },
         {
-          "name": "Collection Track",
-          "leader": "Cosmetic Rewards",
-          "description": "Grab outfits and profile rewards once your gameplay core is stable."
+          "step": "3",
+          "title": "Claim rewards",
+          "body": "Use your points to unlock rewards throughout the season.",
+          "icon": "Gift"
+        },
+        {
+          "step": "4",
+          "title": "Expand your account",
+          "body": "Season rewards feed your story progress, upgrades, and long-term roster growth.",
+          "icon": "Package"
         }
       ],
-      "prestige": [
+      "rewardCards": [
         {
-          "tier": "Tier I",
-          "ovrRange": "Starter setup complete"
+          "title": "Main Stories",
+          "body": "Season progress can unlock main story content tied to the current reward cycle.",
+          "icon": "BookOpen"
         },
         {
-          "tier": "Tier II",
-          "ovrRange": "Ranked-ready lineup online"
+          "title": "Short Stories",
+          "body": "Extra story scenes and side story content are part of the season reward lineup.",
+          "icon": "Layers"
         },
         {
-          "tier": "Tier III",
-          "ovrRange": "Advanced burst consistency"
+          "title": "Characters",
+          "body": "Seasons can include character unlocks as part of their reward structure.",
+          "icon": "Users"
         },
         {
-          "tier": "Tier IV",
-          "ovrRange": "Season-end optimization"
+          "title": "Upgrade Materials",
+          "body": "Enhancement materials are part of season progression and help strengthen your account.",
+          "icon": "Hammer"
+        },
+        {
+          "title": "Various Items",
+          "body": "Additional items round out the season track and support regular play.",
+          "icon": "Package"
         }
       ],
-      "highlights": [
-        "Claim reward nodes right after role milestones unlock.",
-        "Do not overspend seasonal currency before checking upcoming banners.",
-        "Align season goals with your ranked team strategy."
+      "importantNotes": [
+        {
+          "title": "Play your way",
+          "body": "Season progress is not locked to ranked wins only.",
+          "icon": "Star"
+        },
+        {
+          "title": "Rank still matters",
+          "body": "Season Rank Battles remain the most efficient way to push your Season Point total.",
+          "icon": "Trophy"
+        },
+        {
+          "title": "Story is part of progression",
+          "body": "Story content is tied directly into the season reward loop.",
+          "icon": "MessageCircle"
+        }
       ]
     },
     "myfaction": {
-      "title": "dissidiaduellumfinalfantasy story guide",
-      "subtitle": "Understand the modern Tokyo setup and episode flow",
+      "moduleName": "dissidiaduellumfinalfantasy story guide",
+      "title": "Dissidia Duellum Final Fantasy Story Guide",
+      "eyebrow": "A new DISSIDIA story in modern Tokyo",
+      "intro": "A giant crystal appears in Tokyo and becomes part of everyday life. When strange monsters begin to emerge from the crystal's corruption, mysterious warriors answer the city's cry for help.",
       "quickFacts": [
         {
           "label": "Setting",
           "value": "Modern Tokyo"
         },
         {
-          "label": "Core Conflict",
-          "value": "Crystal and monster crisis"
+          "label": "Central Threat",
+          "value": "Monsters born from a polluted crystal"
         },
         {
-          "label": "Story Format",
-          "value": "Main + side episodes"
+          "label": "What people call the warriors",
+          "value": "Ghosts"
         },
         {
-          "label": "Tone",
-          "value": "Fast team-battle narrative"
+          "label": "Story Presentation",
+          "value": "Full Japanese voice acting and chat messenger episodes"
         }
       ],
-      "features": [
+      "storyBeats": [
         {
-          "title": "World Setup",
-          "description": "Final Fantasy warriors are pulled into a modern-city crisis zone."
+          "title": "A crystal enters daily life",
+          "body": "A blue-glowing crystal appears in the city and soon becomes a familiar part of everyday Tokyo.",
+          "icon": "Globe"
         },
         {
-          "title": "Episode Flow",
-          "description": "Main progression and side stories unlock through active play."
+          "title": "Peace suddenly breaks",
+          "body": "The crystal is polluted by a mysterious force, and monsters begin to appear across the city.",
+          "icon": "Flame"
         },
         {
-          "title": "Character Threads",
-          "description": "Each hero carries distinct motives and rivalry context into battle."
+          "title": "The Ghosts arrive",
+          "body": "Armed warriors emerge in response to the crisis, fight, and vanish before anyone can truly identify them.",
+          "icon": "Shield"
         },
         {
-          "title": "Battle Narrative",
-          "description": "Story pacing follows crystal pressure and boss-race escalation."
-        },
-        {
-          "title": "Season Continuity",
-          "description": "New updates extend narrative beats with events and rewards."
+          "title": "Tokyo becomes the new stage",
+          "body": "FINAL FANTASY heroes now live, fight, and form new bonds in a modern urban setting.",
+          "icon": "Building"
         }
+      ],
+      "storyFeatures": [
+        {
+          "title": "Messenger Episodes",
+          "body": "See the characters' daily lives and interactions outside of battle through in-game chat scenes.",
+          "icon": "MessageCircle"
+        },
+        {
+          "title": "Full Voice Acting",
+          "body": "The main presentation is delivered with full Japanese voice acting.",
+          "icon": "Film"
+        },
+        {
+          "title": "Cel-Shaded Style",
+          "body": "The game presents its new world with stylized cel-shaded visuals.",
+          "icon": "Palette"
+        }
+      ],
+      "launchGhosts": [
+        "Warrior of Light",
+        "Kain Highwind",
+        "Krile Mayer Baldesion",
+        "Terra Branford",
+        "Cloud Strife",
+        "Rinoa Heartilly",
+        "Zidane Tribal",
+        "Lightning",
+        "Gaia",
+        "Prompto Argentum"
       ]
     },
     "lockerCodes": {
