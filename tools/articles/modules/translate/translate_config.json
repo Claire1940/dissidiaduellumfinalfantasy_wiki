@@ -9,29 +9,29 @@
   "retry_attempts": 2,
   "retry_delay": 5,
 
-  "languages": ["es", "pt", "de", "fr", "ja", "ar", "ko"],
+  "languages": ["pt", "es", "ja", "ko", "fr", "de", "th"],
   "default_language": "en",
   "output_dir": "content/",
 
   "game_names": {
-    "en": "WWE 2K26",
-    "es": "WWE 2K26",
-    "pt": "WWE 2K26",
-    "de": "WWE 2K26",
-    "fr": "WWE 2K26",
-    "ja": "WWE 2K26",
-    "ar": "WWE 2K26",
-    "ko": "WWE 2K26"
+    "en": "Dissidia Duellum Final Fantasy Wiki",
+    "pt": "Dissidia Duellum Final Fantasy wiki guia",
+    "es": "Dissidia Duellum Final Fantasy guía wiki",
+    "ja": "ディシディア デュエルム ファイナルファンタジー 攻略Wiki",
+    "ko": "디시디아 듀얼럼 파이널 판타지 공략 위키",
+    "fr": "Dissidia Duellum Final Fantasy wiki guide",
+    "de": "Dissidia Duellum Final Fantasy Wiki-Leitfaden",
+    "th": "วิกิไกด์ Dissidia Duellum Final Fantasy"
   },
 
   "lang_names": {
-    "es": "Spanish",
     "pt": "Portuguese (Brazil)",
-    "de": "German",
-    "fr": "French",
+    "es": "Spanish",
     "ja": "Japanese",
-    "ar": "Arabic",
-    "ko": "Korean"
+    "ko": "Korean",
+    "fr": "French",
+    "de": "German",
+    "th": "Thai"
   },
 
   "batch_size": 20,
