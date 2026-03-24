@@ -24,6 +24,8 @@
     "backToHome": "Back to Home",
     "relatedArticles": "Related Articles",
     "readMore": "Read More"
+    ,
+    "loading": "Loading content..."
   },
   "hero": {
     "badge": "3v3 Team Boss Battle Arena",

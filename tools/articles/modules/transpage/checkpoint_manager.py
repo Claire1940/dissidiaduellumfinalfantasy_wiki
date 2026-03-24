@@ -128,10 +128,17 @@ class CheckpointManager:
         """
         merged = {}
 
+        def deep_merge(target: dict, source: dict):
+            for key, value in source.items():
+                if key in target and isinstance(target[key], dict) and isinstance(value, dict):
+                    deep_merge(target[key], value)
+                else:
+                    target[key] = value
+
         for chunk_name in chunk_names:
             chunk_data = self.load_chunk(lang, chunk_name)
             if chunk_data:
-                merged.update(chunk_data)
+                deep_merge(merged, chunk_data)
             else:
                 print(f"  [警告] 分块 {chunk_name} 不存在，跳过")
 

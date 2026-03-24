@@ -169,6 +169,15 @@ class SmartChunkTranslator:
         """按顶层键分块"""
         chunks = {}
         for key, value in data.items():
+            # 对超大顶层对象做二级分块，避免单块响应被截断导致 JSON 失效
+            if isinstance(value, dict):
+                value_tokens_estimate = len(json.dumps(value, ensure_ascii=False)) // 4
+                if value_tokens_estimate > 2500 and len(value) > 1:
+                    for child_key, child_value in value.items():
+                        chunk_name = f"{key}.{child_key}"
+                        chunks[chunk_name] = {key: {child_key: child_value}}
+                    continue
+
             chunks[key] = {key: value}
         return chunks
 
