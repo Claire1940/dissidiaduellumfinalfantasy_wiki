@@ -121,23 +121,23 @@
       },
       {
         "icon": "Gift",
-        "title": "dissidiaduellumfinalfantasy redeem center",
-        "description": "Use campaign rewards and event drops to accelerate progress"
+        "title": "dissidiaduellumfinalfantasy challenges guide",
+        "description": "Practice solo challenge battles while earning rewards and season points"
       },
       {
         "icon": "Monitor",
-        "title": "dissidiaduellumfinalfantasy training controls",
-        "description": "Touch and controller settings for cleaner execution"
+        "title": "dissidiaduellumfinalfantasy controls guide",
+        "description": "Tune touch, controller, and semi-auto settings for consistent execution"
       },
       {
         "icon": "Building",
-        "title": "dissidiaduellumfinalfantasy customization",
-        "description": "Outfits, profile setup, memorias, and support set styling"
+        "title": "dissidiaduellumfinalfantasy customization guide",
+        "description": "Optimize outfits, memorias, BGM, and profile tools without slowing growth"
       },
       {
         "icon": "Package",
         "title": "dissidiaduellumfinalfantasy roadmap",
-        "description": "Track updates, incoming characters, and patch windows"
+        "description": "Track launch roster, season cadence, and the April-May character waves"
       }
     ]
   },
@@ -1137,215 +1137,335 @@
       ]
     },
     "lockerCodes": {
-      "title": "dissidiaduellumfinalfantasy challenges redeem center",
-      "subtitle": "Track challenge rewards and redeem campaign resources quickly",
+      "moduleName": "dissidiaduellumfinalfantasy challenges guide",
+      "title": "Dissidia Duellum Final Fantasy Challenges Guide",
+      "eyebrow": "Solo Practice & Rewards",
+      "intro": "Challenge Battles are the best place to learn a character at your own pace while still earning useful rewards and progressing through the season.",
       "quickFacts": [
         {
-          "label": "Current Focus",
-          "value": "Challenge progression rewards"
+          "label": "Mode Type",
+          "value": "Solo challenge battles"
         },
         {
-          "label": "Best Timing",
-          "value": "Redeem before ranked push"
+          "label": "Character Coverage",
+          "value": "Every character has Challenge Battles"
         },
         {
-          "label": "Primary Value",
-          "value": "Tickets and upgrade currency"
+          "label": "Auto-Play",
+          "value": "Available"
+        },
+        {
+          "label": "Season Progress",
+          "value": "Season Points are earned in any mode"
         }
       ],
-      "codes": [
+      "sections": [
         {
-          "code": "STARTER-RUSH-2026",
-          "rewards": [
-            "Character Ticket x1",
-            "MogPay Points x300",
-            "Training Booster x2"
-          ],
-          "expires": "Season window active"
+          "title": "Why This Mode Matters",
+          "items": [
+            "Challenge Battles are a relaxed mode designed to help you practice any character you have unlocked.",
+            "They are ideal for learning a new fighter before entering multiplayer.",
+            "Auto-play is available here, making it easier to study character flow and basic timing."
+          ]
         },
         {
-          "code": "BOSSBURST-READY",
-          "rewards": [
-            "Ability Ticket x2",
-            "Burst Practice Pack x1",
-            "Profile Frame x1"
-          ],
-          "expires": "Limited-time campaign"
+          "title": "What You Earn",
+          "items": [
+            "Challenge Battles offer solo mission rewards.",
+            "Rewards include background music from the original FINAL FANTASY titles and various in-game items.",
+            "Season Points are still rewarded here, so challenge play contributes to seasonal progression."
+          ]
+        },
+        {
+          "title": "Best Times to Use Challenge Battles",
+          "items": [
+            "Right after unlocking a new character",
+            "Before moving into Ranked or Casual Battles",
+            "When you want steady rewards without team matchmaking pressure"
+          ]
         }
       ],
-      "howToRedeem": [
-        "Open dissidiaduellumfinalfantasy and enter the event menu.",
-        "Go to the rewards redeem panel inside your current season hub.",
-        "Paste the campaign string exactly as shown.",
-        "Claim items, then validate them in character and ability inventory."
-      ]
-    },
-    "pcRequirements": {
-      "title": "dissidiaduellumfinalfantasy training controls",
-      "subtitle": "Tune touch and controller settings for faster execution",
-      "quickFacts": [
-        {
-          "label": "Input Types",
-          "value": "Touch + Controller"
-        },
-        {
-          "label": "Best Start",
-          "value": "Training mode calibration"
-        },
-        {
-          "label": "Priority",
-          "value": "Camera + sensitivity"
-        },
-        {
-          "label": "Goal",
-          "value": "Reliable burst combo input"
-        }
-      ],
-      "minimum": {
-        "os": "Touch Preset: Balanced",
-        "processor": "Auto-aim assist: Low",
-        "memory": "Sensitivity: 45-55",
-        "graphics": "Camera speed: Medium",
-        "directX": "N/A",
-        "storage": "Layout: default with larger burst button",
-        "notes": "Start here if you are still learning role positioning."
-      },
-      "recommended": {
-        "os": "Touch Preset: Competitive",
-        "processor": "Auto-aim assist: Minimal",
-        "memory": "Sensitivity: 60-70",
-        "graphics": "Camera speed: Fast",
-        "directX": "N/A",
-        "storage": "Layout: custom for burst-chain reach",
-        "notes": "Use after your rotations and objective timing are stable."
+      "cta": {
+        "label": "Pick a Character and Start Practicing",
+        "hint": "Use Challenge Battles to learn controls, spacing, and ability timing before multiplayer."
       }
     },
-    "arenas": {
-      "title": "dissidiaduellumfinalfantasy customization guide",
-      "subtitle": "Build your profile style without losing progression efficiency",
+    "pcRequirements": {
+      "moduleName": "dissidiaduellumfinalfantasy controls guide",
+      "title": "Dissidia Duellum Final Fantasy Controls Guide",
+      "eyebrow": "Touch, Controller, and Semi-Auto",
+      "intro": "DDFF is built for fast mobile play, but it also gives players room to tune controls, practice in Training Mode, and switch to controller support.",
       "quickFacts": [
         {
-          "label": "Style Layers",
+          "label": "Core Style",
+          "value": "Simple controls with multiple control settings"
+        },
+        {
+          "label": "Controller Support",
+          "value": "Supported"
+        },
+        {
+          "label": "Practice Mode",
+          "value": "Training Mode available"
+        },
+        {
+          "label": "Auto-Control",
+          "value": "Manual input can be used during Auto-Control"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Touch Controls",
+          "items": [
+            "The game is built around easy-to-learn controls for mobile play.",
+            "You can switch between different control settings and choose the setup that feels best.",
+            "Training Mode lets you freely practice movement and character control."
+          ]
+        },
+        {
+          "title": "Controller Play",
+          "items": [
+            "Controller support is available.",
+            "This gives players another option for movement, camera control, and ability comfort.",
+            "The official support note says controller support is included, though compatibility can vary by device."
+          ]
+        },
+        {
+          "title": "Semi-Auto Play",
+          "items": [
+            "Auto-Control has been improved from the beta version.",
+            "You can step in with manual inputs while Auto-Control is active.",
+            "This creates a semi-auto playstyle that is useful for practice and lower-pressure content."
+          ]
+        }
+      ],
+      "tipsTitle": "Setup Tips",
+      "tips": [
+        "Start in Training Mode to get used to your camera and movement rhythm.",
+        "Try a few control layouts before locking in your main setup.",
+        "Use semi-auto in easier content first, then switch to full manual for PvP improvement."
+      ]
+    },
+    "arenas": {
+      "moduleName": "dissidiaduellumfinalfantasy customization guide",
+      "title": "Dissidia Duellum Final Fantasy Customization Guide",
+      "eyebrow": "Style, Stats, Music, and Social Features",
+      "intro": "Customization in DDFF is more than cosmetics. You can change outfits, equip Memorias for stat boosts, collect music, tune support setups, and personalize your profile.",
+      "quickFacts": [
+        {
+          "label": "Cosmetic Types",
           "value": "Outfits / Memorias / BGM"
         },
         {
-          "label": "Profile Tools",
-          "value": "Showcase card + tagline"
+          "label": "Stat System",
+          "value": "Memorias boost character stats"
         },
         {
-          "label": "Support Set",
-          "value": "Auto + manual tuning"
+          "label": "Social Features",
+          "value": "Profile editing, chat, and FF tags"
+        },
+        {
+          "label": "Support Setup",
+          "value": "Support Sets can be auto-created"
         }
       ],
-      "categories": [
+      "sections": [
         {
-          "name": "Visual Identity",
-          "arenas": [
-            "Outfit presets",
-            "Color variants",
-            "Victory pose style",
-            "Profile frame selection"
+          "title": "Outfits",
+          "items": [
+            "Characters can wear their original looks or new outfits adapted to modern Tokyo.",
+            "This lets players build a roster that matches both classic FF nostalgia and the new DDFF setting."
           ]
         },
         {
-          "name": "Audio and Mood",
-          "arenas": [
-            "BGM unlock routing",
-            "Match intro themes",
-            "Menu audio personalization"
+          "title": "Memorias",
+          "items": [
+            "Memorias feature memorable scenes from across the FINAL FANTASY series.",
+            "They can be earned as rewards.",
+            "You can set Memorias to boost your character stats."
           ]
         },
         {
-          "name": "Social Presentation",
-          "arenas": [
-            "Profile summary card",
-            "Party finder intro",
-            "Community showcase updates"
+          "title": "BGM Collection",
+          "items": [
+            "You can obtain music tracks from across the FINAL FANTASY series and arranged versions.",
+            "Collected BGM can be used to elevate battles.",
+            "The launch celebration login bonus includes 8 BGM tracks from past DISSIDIA titles."
           ]
         },
         {
-          "name": "Performance Safe Rules",
-          "arenas": [
-            "Do not delay core upgrades for cosmetics",
-            "Use event windows for style unlocks"
+          "title": "Profile, Chat, and Support Tools",
+          "items": [
+            "You can edit your profile and chat with other players.",
+            "The game includes tags for talking about your favorite FINAL FANTASY titles.",
+            "Support Sets can be auto-created based on the character-boosting stats you want to prioritize."
           ]
+        }
+      ],
+      "showcaseCards": [
+        {
+          "title": "Original & Modern Outfits",
+          "body": "Swap between classic looks and modern-world styles."
+        },
+        {
+          "title": "Memorias",
+          "body": "Collect iconic FF scenes and use them for stat growth."
+        },
+        {
+          "title": "Battle Music",
+          "body": "Unlock original and arranged tracks from across the series."
+        },
+        {
+          "title": "Player Identity",
+          "body": "Build your profile, use tags, and connect with the community."
         }
       ]
     },
     "dlcUnlockables": {
-      "title": "dissidiaduellumfinalfantasy roadmap",
-      "subtitle": "Follow live-service updates and prepare for each content wave",
+      "moduleName": "dissidiaduellumfinalfantasy roadmap",
+      "title": "Dissidia Duellum Final Fantasy Roadmap",
+      "eyebrow": "Launch Content, Seasons, and Upcoming Characters",
+      "intro": "DISSIDIA DUELLUM FINAL FANTASY is live now on iOS and Android, with a launch roster of 10 characters and a two-month post-launch campaign adding 6 more fighters.",
       "quickFacts": [
         {
-          "label": "Roadmap Type",
-          "value": "Live seasonal updates"
+          "label": "Status",
+          "value": "Available now"
         },
         {
-          "label": "Focus",
-          "value": "Characters + balance + events"
+          "label": "Launch Platforms",
+          "value": "App Store and Google Play"
         },
         {
-          "label": "Player Action",
-          "value": "Pre-farm tickets and currency"
+          "label": "Launch Roster",
+          "value": "10 playable characters"
+        },
+        {
+          "label": "Season Length",
+          "value": "About one month"
         }
       ],
-      "seasons": [
-        {
-          "season": "Wave 1",
-          "release": "Character and mode stabilization"
-        },
-        {
-          "season": "Wave 2",
-          "release": "Roster expansion and reward refresh"
-        },
-        {
-          "season": "Wave 3",
-          "release": "Balance pass and event rotation"
-        },
-        {
-          "season": "Wave 4",
-          "release": "Late-season ladder acceleration"
-        },
-        {
-          "season": "Wave 5",
-          "release": "New challenge chapters"
-        },
-        {
-          "season": "Wave 6",
-          "release": "Major roadmap recap and prep cycle"
-        }
+      "seasonInfo": {
+        "title": "Season Structure",
+        "items": [
+          "Seasons run for about one month.",
+          "Players can earn Season Points through battles.",
+          "Season rewards include main stories, short stories, characters, and various items."
+        ]
+      },
+      "launchRosterTitle": "Launch Roster",
+      "launchRoster": [
+        "Warrior of Light",
+        "Kain Highwind",
+        "Krile Mayer Baldesion",
+        "Terra Branford",
+        "Cloud Strife",
+        "Rinoa Heartilly",
+        "Zidane Tribal",
+        "Lightning",
+        "Gaia",
+        "Prompto Argentum"
       ],
+      "upcomingCampaign": {
+        "title": "Launch Celebration: 6 New Characters",
+        "window": "April-May 2026",
+        "waves": [
+          {
+            "label": "Wave I",
+            "characters": [
+              {
+                "name": "Onion Knight",
+                "series": "Final Fantasy III",
+                "role": "Agile",
+                "summary": "A late-bloomer fighter who grows stronger as the battle develops."
+              },
+              {
+                "name": "Iroha",
+                "series": "Final Fantasy XI",
+                "role": "Melee",
+                "summary": "Builds power by chaining abilities in succession."
+              }
+            ]
+          },
+          {
+            "label": "Wave II",
+            "characters": [
+              {
+                "name": "Firion",
+                "series": "Final Fantasy II",
+                "role": "Melee",
+                "summary": "Uses the Blood Sword to recover HP while dealing damage."
+              },
+              {
+                "name": "Balthier",
+                "series": "Final Fantasy XII",
+                "role": "Ranged",
+                "summary": "A PvP-focused gunner who gains an edge after defeating enemy players."
+              }
+            ]
+          },
+          {
+            "label": "Wave III",
+            "characters": [
+              {
+                "name": "Rikku",
+                "series": "Final Fantasy X",
+                "role": "Support",
+                "summary": "Uses Mix-inspired abilities to create a wide range of effects."
+              },
+              {
+                "name": "Clive Rosfield",
+                "series": "Final Fantasy XVI",
+                "role": "Melee",
+                "summary": "A well-rounded fighter with powerful semi-Primed attacks."
+              }
+            ]
+          }
+        ]
+      },
+      "liveNow": {
+        "title": "Current Login Bonus",
+        "period": "Until 14:59 on April 24, 2026 (UTC)",
+        "items": [
+          "1,000 MogPay Points on Day 1",
+          "Draw Ticket x10 on Day 2",
+          "5,000 Growth Eggs on Day 3",
+          "1,000 MogPay Points on Day 4",
+          "1,000 MogPay Points on Day 5",
+          "Draw Ticket x10 on Day 6",
+          "Character Ticket x5 on Day 7"
+        ]
+      },
       "editionPacks": [
         {
           "name": "Upcoming Characters",
           "includes": [
-            "Track official reveal windows",
-            "Save targeted tickets by role",
-            "Plan comp upgrades ahead of launch"
+            "Track wave windows and role additions.",
+            "Set team plans around incoming role coverage.",
+            "Keep resources ready for debut character testing."
           ]
         },
         {
           "name": "Patch Note Checklist",
           "includes": [
-            "Review role balance deltas",
-            "Adjust burst rotation plans",
-            "Retest top two team comps"
+            "Review season point and reward changes.",
+            "Adjust your mode rotation for monthly goals.",
+            "Re-check ranking strategy after each content wave."
           ]
         },
         {
           "name": "Event Reward Plan",
           "includes": [
-            "Claim limited challenge rewards",
-            "Prioritize account power rewards",
-            "Archive cosmetics at cycle end"
+            "Target login rewards during active windows.",
+            "Convert tickets and points into roster growth.",
+            "Plan around campaign deadlines in UTC."
           ]
         },
         {
           "name": "Competitive Prep",
           "includes": [
-            "Scrim in custom rooms",
-            "Align trio role calls",
-            "Finalize season-end ranked route"
+            "Keep one stable ranked trio for climb days.",
+            "Use Challenge Battles to prep incoming characters.",
+            "Apply control tuning before high-pressure sessions."
           ]
         }
       ],

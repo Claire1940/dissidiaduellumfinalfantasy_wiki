@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState, Suspense, lazy } from 'react'
+import { useEffect, Suspense, lazy } from 'react'
 import Link from 'next/link'
 import {
   AlertTriangle,
@@ -9,7 +9,6 @@ import {
   ChevronDown,
   ClipboardCheck,
   Clock,
-  Copy,
   Download,
   ExternalLink,
   Gamepad2,
@@ -119,19 +118,6 @@ export default function HomePage() {
     ],
   }
 
-  // Copy state
-  const [copiedPath, setCopiedPath] = useState<string | null>(null)
-
-  const copyToClipboard = async (text: string) => {
-    try {
-      await navigator.clipboard.writeText(text)
-      setCopiedPath(text)
-      setTimeout(() => setCopiedPath(null), 2000)
-    } catch (err) {
-      console.error('Copy failed:', err)
-    }
-  }
-
   // Scroll reveal animation
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -156,6 +142,13 @@ export default function HomePage() {
   const roleGuideIcons = [Gamepad2, Download, ArrowRight, MessageCircle]
   const featuredAbilityIcons = [Sparkles, Shield, Clock, Hammer]
   const helperIcons = [Star, Keyboard, Home, Users]
+  const challengeSectionIcons = ['Shield', 'Gift', 'Calendar']
+  const controlsSectionIcons = ['Monitor', 'Gamepad2', 'Sparkles']
+  const customizationSectionIcons = ['Palette', 'Layers', 'Film', 'MessageCircle']
+  const customizationShowcaseIcons = ['Building', 'Map', 'Globe', 'Users']
+  const roadmapQuickIcons = ['TrendingUp', 'Download', 'Users', 'Calendar']
+  const roadmapWaveIcons = ['Sparkles', 'Flame', 'Shield']
+  const roadmapRewardIcons = ['Gift', 'Package', 'Star', 'Trophy']
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -299,7 +292,7 @@ export default function HomePage() {
                 'release-editions', 'roster', 'ratings', 'controls',
                 'match-types', 'showcase', 'mygm', 'myrise',
                 'universe-mode', 'community-creations', 'the-island', 'myfaction',
-                'locker-codes', 'pc-requirements', 'arenas', 'dlc-unlockables'
+                'challenges-guide', 'controls-guide', 'customization-guide', 'roadmap'
               ]
               const sectionId = sectionIds[index]
 
@@ -977,51 +970,49 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Module 13: Locker Codes */}
-      <section id="locker-codes" className="scroll-mt-24 px-4 py-20 scroll-reveal">
-        <div className="container mx-auto max-w-5xl">
+      {/* Module 13: Challenges Guide */}
+      <section id="challenges-guide" className="scroll-mt-24 px-4 py-20 scroll-reveal">
+        <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
-              {t.modules.lockerCodes.title}
+              {t.modules.lockerCodes.moduleName}
               <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mt-6">{t.modules.lockerCodes.subtitle}</p>
+            <h3 className="text-2xl md:text-3xl font-bebas text-[hsl(var(--nav-theme-light))] mt-6 mb-4">
+              {t.modules.lockerCodes.title}
+            </h3>
+            <p className="text-sm uppercase tracking-wide text-[hsl(var(--gold))] mb-3">{t.modules.lockerCodes.eyebrow}</p>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.lockerCodes.intro}</p>
           </div>
-          <div className="space-y-4">
-            {t.modules.lockerCodes.codes.map((codeItem: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border-2 border-[hsl(var(--gold)/0.5)] hover:border-[hsl(var(--gold))] transition-all duration-300 glow-gold">
-                <div className="flex items-center justify-between mb-4">
-                  <div className="font-mono text-2xl font-bebas text-gold-gradient">{codeItem.code}</div>
-                  <button
-                    onClick={() => navigator.clipboard.writeText(codeItem.code)}
-                    className="group px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme))] text-white hover:bg-[hsl(var(--nav-theme)/0.9)] transition-all duration-300 flex items-center gap-2 hover:shadow-[0_4px_16px_hsl(var(--nav-theme)/0.4)]"
-                  >
-                    <Copy className="w-4 h-4 group-hover:scale-110 transition-transform" />
-                    Copy
-                  </button>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            {t.modules.lockerCodes.quickFacts.map((fact: any, i: number) => (
+              <div key={i} className="p-4 rounded-lg bg-card border border-border text-center">
+                <div className="text-xs text-muted-foreground">{fact.label}</div>
+                <div className="text-sm md:text-base font-semibold text-[hsl(var(--nav-theme-light))] mt-1">{fact.value}</div>
+              </div>
+            ))}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            {t.modules.lockerCodes.sections.map((section: any, i: number) => (
+              <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className="text-lg font-bebas text-[hsl(var(--nav-theme))]">{section.title}</h3>
+                  <DynamicIcon name={challengeSectionIcons[i] || 'HelpCircle'} className="w-5 h-5 text-[hsl(var(--gold))]" />
                 </div>
-                <div className="text-sm text-muted-foreground mb-2">Expires: {codeItem.expires}</div>
-                <ul className="space-y-1">
-                  {codeItem.rewards.map((reward: string, j: number) => (
-                    <li key={j} className="text-sm flex items-center gap-2">
-                      <Check className="w-4 h-4 text-[hsl(var(--nav-theme))]" />
-                      {reward}
+                <ul className="space-y-2">
+                  {section.items.map((item: string, j: number) => (
+                    <li key={j} className="text-sm flex items-start gap-2">
+                      <Check className="w-4 h-4 text-[hsl(var(--nav-theme))] mt-0.5 flex-shrink-0" />
+                      <span>{item}</span>
                     </li>
                   ))}
                 </ul>
               </div>
             ))}
           </div>
-          <div className="mt-8 p-6 rounded-xl bg-muted/50 border-2 border-border">
-            <h4 className="font-bebas text-xl mb-4">How to Redeem</h4>
-            <ol className="space-y-2">
-              {t.modules.lockerCodes.howToRedeem.map((step: string, i: number) => (
-                <li key={i} className="flex items-start gap-3">
-                  <div className="w-6 h-6 rounded-full bg-[hsl(var(--nav-theme))] text-white flex items-center justify-center text-sm font-bebas flex-shrink-0">{i + 1}</div>
-                  <span className="text-sm">{step}</span>
-                </li>
-              ))}
-            </ol>
+          <div className="p-6 rounded-xl border border-[hsl(var(--gold)/0.4)] bg-[hsl(var(--nav-theme)/0.08)]">
+            <h4 className="font-bebas text-xl mb-3 text-[hsl(var(--nav-theme-light))]">{t.modules.lockerCodes.cta.label}</h4>
+            <p className="text-sm text-muted-foreground">{t.modules.lockerCodes.cta.hint}</p>
           </div>
         </div>
       </section>
@@ -1033,93 +1024,195 @@ export default function HomePage() {
         className="my-8"
       />
 
-      {/* Module 14: PC Requirements */}
-      <section id="pc-requirements" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
-        <div className="container mx-auto max-w-5xl">
+      {/* Module 14: Controls Guide */}
+      <section id="controls-guide" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
+        <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
-              {t.modules.pcRequirements.title}
+              {t.modules.pcRequirements.moduleName}
               <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto mt-6">{t.modules.pcRequirements.subtitle}</p>
+            <h3 className="text-2xl md:text-3xl font-bebas text-[hsl(var(--nav-theme-light))] mt-6 mb-4">
+              {t.modules.pcRequirements.title}
+            </h3>
+            <p className="text-sm uppercase tracking-wide text-[hsl(var(--gold))] mb-3">{t.modules.pcRequirements.eyebrow}</p>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.pcRequirements.intro}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="p-6 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300">
-              <h3 className="text-xl font-bebas mb-4 text-[hsl(var(--nav-theme))]">Minimum</h3>
-              <dl className="space-y-3">
-                <div><dt className="text-sm text-muted-foreground">OS</dt><dd className="font-medium">{t.modules.pcRequirements.minimum.os}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">Processor</dt><dd className="font-medium">{t.modules.pcRequirements.minimum.processor}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">Memory</dt><dd className="font-medium">{t.modules.pcRequirements.minimum.memory}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">Graphics</dt><dd className="font-medium">{t.modules.pcRequirements.minimum.graphics}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">Storage</dt><dd className="font-medium">{t.modules.pcRequirements.minimum.storage}</dd></div>
-              </dl>
-            </div>
-            <div className="p-6 rounded-xl bg-card border-2 border-[hsl(var(--gold)/0.5)] hover:border-[hsl(var(--gold))] transition-all duration-300 glow-gold relative overflow-hidden">
-              <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-gradient-to-r from-[hsl(var(--gold))] to-[hsl(var(--gold-dark))] text-white text-xs font-bebas">RECOMMENDED</div>
-              <h3 className="text-xl font-bebas mb-4 text-gold-gradient">Recommended</h3>
-              <dl className="space-y-3">
-                <div><dt className="text-sm text-muted-foreground">OS</dt><dd className="font-medium">{t.modules.pcRequirements.recommended.os}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">Processor</dt><dd className="font-medium">{t.modules.pcRequirements.recommended.processor}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">Memory</dt><dd className="font-medium">{t.modules.pcRequirements.recommended.memory}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">Graphics</dt><dd className="font-medium">{t.modules.pcRequirements.recommended.graphics}</dd></div>
-                <div><dt className="text-sm text-muted-foreground">Storage</dt><dd className="font-medium">{t.modules.pcRequirements.recommended.storage}</dd></div>
-              </dl>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Module 15: Arenas */}
-      <section id="arenas" className="scroll-mt-24 px-4 py-20 scroll-reveal">
-        <div className="container mx-auto max-w-7xl">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.arenas.title}</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.arenas.subtitle}</p>
-          </div>
-          <div className="space-y-8">
-            {t.modules.arenas.categories.map((category: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border">
-                <h3 className="text-lg font-bold mb-4 text-[hsl(var(--nav-theme))]">{category.name}</h3>
-                <div className="flex flex-wrap gap-2">
-                  {category.arenas.map((arena: string, j: number) => (
-                    <span key={j} className="px-3 py-1 rounded-full bg-muted text-sm">{arena}</span>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Module 16: DLC & Unlockables */}
-      <section id="dlc-unlockables" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
-        <div className="container mx-auto max-w-7xl">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.dlcUnlockables.title}</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.dlcUnlockables.subtitle}</p>
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-8">
-            {t.modules.dlcUnlockables.seasons.map((season: any, i: number) => (
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            {t.modules.pcRequirements.quickFacts.map((fact: any, i: number) => (
               <div key={i} className="p-4 rounded-lg bg-card border border-border text-center">
-                <div className="font-bold text-[hsl(var(--nav-theme))] mb-1">{season.season}</div>
-                <div className="text-xs text-muted-foreground">{season.release}</div>
+                <div className="text-xs text-muted-foreground">{fact.label}</div>
+                <div className="text-sm md:text-base font-semibold text-[hsl(var(--nav-theme-light))] mt-1">{fact.value}</div>
               </div>
             ))}
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {t.modules.dlcUnlockables.editionPacks.map((pack: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border">
-                <h3 className="text-lg font-bold mb-3 text-[hsl(var(--nav-theme))]">{pack.name}</h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            {t.modules.pcRequirements.sections.map((panel: any, i: number) => (
+              <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className="text-lg font-bebas text-[hsl(var(--nav-theme))]">{panel.title}</h3>
+                  <DynamicIcon name={controlsSectionIcons[i] || 'Gamepad2'} className="w-5 h-5 text-[hsl(var(--gold))]" />
+                </div>
                 <ul className="space-y-2">
-                  {pack.includes.map((item: string, j: number) => (
-                    <li key={j} className="text-sm flex items-center gap-2">
-                      <Check className="w-4 h-4 text-[hsl(var(--nav-theme))]" />
-                      {item}
+                  {panel.items.map((item: string, j: number) => (
+                    <li key={j} className="text-sm flex items-start gap-2">
+                      <Check className="w-4 h-4 text-[hsl(var(--nav-theme))] mt-0.5 flex-shrink-0" />
+                      <span>{item}</span>
                     </li>
                   ))}
                 </ul>
               </div>
             ))}
+          </div>
+          <div className="p-6 rounded-xl bg-card border border-[hsl(var(--gold)/0.4)]">
+            <h4 className="font-bebas text-xl mb-4 text-[hsl(var(--nav-theme-light))]">{t.modules.pcRequirements.tipsTitle}</h4>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+              {t.modules.pcRequirements.tips.map((tip: string, i: number) => (
+                <div key={i} className="p-3 rounded-lg bg-muted/40 border border-border text-sm text-muted-foreground">
+                  {tip}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 15: Customization Guide */}
+      <section id="customization-guide" className="scroll-mt-24 px-4 py-20 scroll-reveal">
+        <div className="container mx-auto max-w-7xl">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {t.modules.arenas.moduleName}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <h3 className="text-2xl md:text-3xl font-bebas text-[hsl(var(--nav-theme-light))] mt-6 mb-4">
+              {t.modules.arenas.title}
+            </h3>
+            <p className="text-sm uppercase tracking-wide text-[hsl(var(--gold))] mb-3">{t.modules.arenas.eyebrow}</p>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.arenas.intro}</p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            {t.modules.arenas.quickFacts.map((fact: any, i: number) => (
+              <div key={i} className="p-4 rounded-lg bg-card border border-border text-center">
+                <div className="text-xs text-muted-foreground">{fact.label}</div>
+                <div className="text-sm md:text-base font-semibold text-[hsl(var(--nav-theme-light))] mt-1">{fact.value}</div>
+              </div>
+            ))}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            {t.modules.arenas.sections.map((section: any, i: number) => (
+              <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className="text-lg font-bebas text-[hsl(var(--nav-theme))]">{section.title}</h3>
+                  <DynamicIcon name={customizationSectionIcons[i] || 'Palette'} className="w-5 h-5 text-[hsl(var(--gold))]" />
+                </div>
+                <ul className="space-y-2">
+                  {section.items.map((item: string, j: number) => (
+                    <li key={j} className="text-sm flex items-start gap-2">
+                      <Check className="w-4 h-4 text-[hsl(var(--nav-theme))] mt-0.5 flex-shrink-0" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            {t.modules.arenas.showcaseCards.map((card: any, i: number) => (
+              <div key={i} className="p-4 rounded-xl border border-[hsl(var(--gold)/0.4)] bg-[hsl(var(--nav-theme)/0.08)]">
+                <DynamicIcon name={customizationShowcaseIcons[i] || 'Palette'} className="w-5 h-5 text-[hsl(var(--gold))] mb-2" />
+                <h4 className="font-semibold mb-1">{card.title}</h4>
+                <p className="text-sm text-muted-foreground">{card.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 16: Roadmap */}
+      <section id="roadmap" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
+        <div className="container mx-auto max-w-7xl">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {t.modules.dlcUnlockables.moduleName}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <h3 className="text-2xl md:text-3xl font-bebas text-[hsl(var(--nav-theme-light))] mt-6 mb-4">
+              {t.modules.dlcUnlockables.title}
+            </h3>
+            <p className="text-sm uppercase tracking-wide text-[hsl(var(--gold))] mb-3">{t.modules.dlcUnlockables.eyebrow}</p>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.dlcUnlockables.intro}</p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            {t.modules.dlcUnlockables.quickFacts.map((fact: any, i: number) => (
+              <div key={i} className="p-4 rounded-lg bg-card border border-border text-center">
+                <DynamicIcon name={roadmapQuickIcons[i] || 'HelpCircle'} className="w-4 h-4 text-[hsl(var(--gold))] mx-auto mb-2" />
+                <div className="text-xs text-muted-foreground">{fact.label}</div>
+                <div className="text-sm md:text-base font-semibold text-[hsl(var(--nav-theme-light))] mt-1">{fact.value}</div>
+              </div>
+            ))}
+          </div>
+          <div className="p-6 rounded-xl bg-card border border-border mb-8">
+            <h4 className="font-bebas text-xl mb-3 text-[hsl(var(--nav-theme))]">{t.modules.dlcUnlockables.seasonInfo.title}</h4>
+            <ul className="space-y-2">
+              {t.modules.dlcUnlockables.seasonInfo.items.map((item: string, i: number) => (
+                <li key={i} className="text-sm flex items-start gap-2">
+                  <Check className="w-4 h-4 text-[hsl(var(--nav-theme))] mt-0.5 flex-shrink-0" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="p-6 rounded-xl bg-card border border-border mb-8">
+            <h4 className="font-bebas text-xl mb-4 text-[hsl(var(--nav-theme-light))]">{t.modules.dlcUnlockables.launchRosterTitle}</h4>
+            <div className="flex flex-wrap gap-2">
+              {t.modules.dlcUnlockables.launchRoster.map((fighter: string, i: number) => (
+                <span key={i} className="px-3 py-1 rounded-full bg-muted border border-border text-sm">
+                  {fighter}
+                </span>
+              ))}
+            </div>
+          </div>
+          <div className="p-6 rounded-xl border border-[hsl(var(--gold)/0.4)] bg-[hsl(var(--nav-theme)/0.08)] mb-8">
+            <div className="flex items-center justify-between gap-4 mb-4">
+              <h4 className="font-bebas text-xl text-[hsl(var(--nav-theme-light))]">{t.modules.dlcUnlockables.upcomingCampaign.title}</h4>
+              <span className="px-3 py-1 rounded-full text-xs border border-[hsl(var(--gold)/0.4)]">{t.modules.dlcUnlockables.upcomingCampaign.window}</span>
+            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+              {t.modules.dlcUnlockables.upcomingCampaign.waves.map((wave: any, i: number) => (
+                <div key={i} className="p-4 rounded-lg bg-card border border-border">
+                  <div className="flex items-center justify-between mb-3">
+                    <h5 className="font-bebas text-lg text-[hsl(var(--nav-theme))]">{wave.label}</h5>
+                    <DynamicIcon name={roadmapWaveIcons[i] || 'Sparkles'} className="w-5 h-5 text-[hsl(var(--gold))]" />
+                  </div>
+                  <div className="space-y-3">
+                    {wave.characters.map((entry: any, j: number) => (
+                      <div key={j} className="p-3 rounded bg-muted/40 border border-border">
+                        <p className="text-sm font-semibold">{entry.name}</p>
+                        <p className="text-xs text-muted-foreground mb-1">{entry.series} · {entry.role}</p>
+                        <p className="text-xs text-muted-foreground">{entry.summary}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="p-6 rounded-xl bg-card border border-border">
+            <div className="flex items-center justify-between gap-4 mb-3">
+              <h4 className="font-bebas text-xl text-[hsl(var(--nav-theme))]">{t.modules.dlcUnlockables.liveNow.title}</h4>
+              <span className="text-xs text-muted-foreground">{t.modules.dlcUnlockables.liveNow.period}</span>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
+              {t.modules.dlcUnlockables.liveNow.items.map((item: string, i: number) => (
+                <div key={i} className="p-3 rounded-lg border border-border bg-muted/30">
+                  <div className="flex items-start gap-2">
+                    <DynamicIcon name={roadmapRewardIcons[i % roadmapRewardIcons.length]} className="w-4 h-4 text-[hsl(var(--gold))] mt-0.5 flex-shrink-0" />
+                    <span className="text-sm">{item}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
