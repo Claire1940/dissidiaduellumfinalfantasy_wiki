@@ -1312,9 +1312,7 @@ export default function HomePage() {
               <ul className="space-y-2 text-sm">
                 <li>
                   <Link
-                    href="https://www.square-enix.com/ddff/en/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="about"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.about}
@@ -1322,9 +1320,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.square-enix.com/privacy/en/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="privacy-policy"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.privacy}
@@ -1332,9 +1328,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.square-enix-games.com/en_US/documents/terms-of-use"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="terms-of-service"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.terms}
@@ -1342,9 +1336,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.square-enix.com/na/legal/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="copyright"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.copyrightNotice}
