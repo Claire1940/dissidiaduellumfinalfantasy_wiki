@@ -46,7 +46,7 @@ const LoadingPlaceholder = ({ height = 'h-64' }: { height?: string }) => (
 
 export default function HomePage() {
   const t = useMessages() as any
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.wwe2k26.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://dissidiaduellumfinalfantasy.wiki'
 
   // Structured data
   const structuredData = {
@@ -56,14 +56,14 @@ export default function HomePage() {
         '@type': 'WebSite',
         '@id': `${siteUrl}/#website`,
         url: siteUrl,
-        name: "WWE 2K26 Wiki",
-        description: "Complete WWE 2K26 resource hub with roster, ratings, locker codes, match types, and game mode guides.",
+        name: "Dissidia Duellum Final Fantasy Wiki",
+        description: "Guides and references for Dissidia Duellum Final Fantasy characters, roles, abilities, bosses, and updates.",
         image: {
           '@type': 'ImageObject',
           url: `${siteUrl}/images/hero.webp`,
           width: 1200,
           height: 630,
-          caption: "WWE 2K26 - Wrestling Simulation Game",
+          caption: "Dissidia Duellum Final Fantasy Hero Artwork",
         },
         potentialAction: {
           '@type': 'SearchAction',
@@ -74,10 +74,10 @@ export default function HomePage() {
       {
         '@type': 'Organization',
         '@id': `${siteUrl}/#organization`,
-        name: "WWE 2K26 Wiki",
-        alternateName: "WWE 2K26",
+        name: "Dissidia Duellum Final Fantasy Wiki",
+        alternateName: "DDFF Wiki",
         url: siteUrl,
-        description: "Complete WWE 2K26 Wiki resource hub for roster, ratings, and game modes",
+        description: "Unofficial resource hub for Dissidia Duellum Final Fantasy players.",
         logo: {
           '@type': 'ImageObject',
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -89,30 +89,31 @@ export default function HomePage() {
           url: `${siteUrl}/images/hero.webp`,
           width: 1200,
           height: 630,
-          caption: "WWE 2K26 Wiki - Master Wrestling",
+          caption: "Dissidia Duellum Final Fantasy Wiki",
         },
         sameAs: [
-          'https://wwe.2k.com/2k26/',
-          'https://discord.com/invite/wwe2k',
-          'https://x.com/WWEgames',
+          'https://www.square-enix.com/ddff/en/',
+          'https://www.facebook.com/profile.php?id=61580044209959',
+          'https://x.com/DDFF_EN',
+          'https://www.youtube.com/watch?v=dgTNtB9myss',
         ],
       },
       {
         '@type': 'VideoGame',
-        name: "WWE 2K26",
-        gamePlatform: ['PlayStation 5', 'Xbox Series X|S', 'PC', 'Nintendo Switch 2'],
+        name: "DISSIDIA DUELLUM FINAL FANTASY",
+        gamePlatform: ['iOS', 'Android'],
         applicationCategory: 'Game',
-        genre: ['Sports', 'Wrestling', 'Simulation'],
+        genre: ['Action', 'Team Battle', 'Boss Battle Arena'],
         numberOfPlayers: {
           minValue: 1,
-          maxValue: 4,
+          maxValue: 6,
         },
         offers: {
           '@type': 'Offer',
-          price: '69.99',
+          price: '0',
           priceCurrency: 'USD',
-          availability: 'https://schema.org/PreOrder',
-          url: 'https://store.steampowered.com/app/3717070/WWE_2K26/',
+          availability: 'https://schema.org/InStock',
+          url: 'https://apps.apple.com/us/app/dissidia-duellum-final-fantasy/id6480398822',
         },
       },
     ],
@@ -214,7 +215,7 @@ export default function HomePage() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <button
-                onClick={() => scrollToSection('locker-codes')}
+                onClick={() => scrollToSection('release-editions')}
                 className="group inline-flex items-center justify-center gap-2 px-8 py-4
                            bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)]
                            text-white rounded-lg font-semibold text-lg
@@ -226,7 +227,7 @@ export default function HomePage() {
                 {t.hero.getFreeCodesCTA}
               </button>
               <a
-                href="https://store.steampowered.com/app/3717070/WWE_2K26/"
+                href="https://apps.apple.com/us/app/dissidia-duellum-final-fantasy/id6480398822"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center justify-center gap-2 px-8 py-4
@@ -257,8 +258,8 @@ export default function HomePage() {
         <div className="scroll-reveal container mx-auto">
           <div className="relative rounded-2xl overflow-hidden">
             <VideoFeature
-              videoId="oYd6rXOrz7E"
-              title="The Show Is On! | WWE 2K26 Official Announce Trailer"
+              videoId="dgTNtB9myss"
+              title="DISSIDIA DUELLUM FINAL FANTASY - Official Launch Trailer"
               posterImage="/images/hero.webp"
             />
           </div>
@@ -852,7 +853,7 @@ export default function HomePage() {
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://discord.com/invite/wwe2k"
+                    href="https://www.square-enix.com/ddff/en/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -862,7 +863,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <a
-                    href="https://x.com/WWEgames"
+                    href="https://x.com/DDFF_EN"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -872,7 +873,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.reddit.com/r/WWEGames/"
+                    href="https://www.reddit.com/r/DissidiaDuellumFF/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-slate-300 hover:text-[hsl(var(--nav-theme-light))] transition-colors"
@@ -882,7 +883,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.youtube.com/@WWEGames"
+                    href="https://www.youtube.com/watch?v=dgTNtB9myss"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-slate-300 hover:text-[hsl(var(--nav-theme-light))] transition-colors"
@@ -892,7 +893,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.instagram.com/wwegames/"
+                    href="https://www.facebook.com/profile.php?id=61580044209959"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-slate-300 hover:text-[hsl(var(--nav-theme-light))] transition-colors"
