@@ -152,6 +152,11 @@ export default function HomePage() {
     return () => observer.disconnect()
   }, [])
 
+  const teamCompIcons = [Users, Shield, TrendingUp, ClipboardCheck]
+  const roleGuideIcons = [Gamepad2, Download, ArrowRight, MessageCircle]
+  const featuredAbilityIcons = [Sparkles, Shield, Clock, Hammer]
+  const helperIcons = [Star, Keyboard, Home, Users]
+
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* Structured data */}
@@ -500,16 +505,56 @@ export default function HomePage() {
       <section id="match-types" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.matchTypes.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {t.modules.matchTypes.moduleName}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <h3 className="text-2xl md:text-3xl font-bebas text-[hsl(var(--nav-theme-light))] mt-6 mb-4">
+              {t.modules.matchTypes.title}
+            </h3>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.matchTypes.subtitle}</p>
+            <p className="text-sm text-muted-foreground max-w-4xl mx-auto mt-4">{t.modules.matchTypes.intro}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {t.modules.matchTypes.matches.map((match: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
-                <h3 className="text-xl font-bold mb-3 text-[hsl(var(--nav-theme))]">{match.name}</h3>
-                <p className="text-sm text-muted-foreground">{match.description}</p>
-              </div>
+          <div className="flex flex-wrap gap-2 justify-center mb-10">
+            {t.modules.matchTypes.filters.map((filter: string, i: number) => (
+              <span key={i} className="px-4 py-1.5 rounded-full border border-[hsl(var(--gold)/0.4)] bg-[hsl(var(--nav-theme)/0.08)] text-sm">
+                {filter}
+              </span>
             ))}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+            {t.modules.matchTypes.cards.map((card: any, i: number) => {
+              const IconComponent = teamCompIcons[i] || Users
+              return (
+                <div key={i} className="p-6 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
+                  <div className="flex items-center justify-between mb-4">
+                    <h3 className="text-xl font-bebas text-[hsl(var(--nav-theme))]">{card.title}</h3>
+                    <IconComponent className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <p className="text-xs uppercase tracking-wide text-[hsl(var(--gold))] mb-4">{card.purpose}</p>
+                  <p className="text-sm mb-3"><span className="text-muted-foreground">Lineup:</span> {card.lineup.join(' / ')}</p>
+                  <p className="text-sm mb-3"><span className="text-muted-foreground">Role Spread:</span> {card.roleSpread.join(' / ')}</p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {card.synergyTags.map((tag: string, tagIndex: number) => (
+                      <span key={tagIndex} className="px-2 py-1 rounded bg-muted text-xs">{tag}</span>
+                    ))}
+                  </div>
+                  <p className="text-sm text-muted-foreground mb-3"><span className="text-foreground">Why it works:</span> {card.whyItWorks}</p>
+                  <p className="text-sm text-muted-foreground mb-3"><span className="text-foreground">Opening plan:</span> {card.openingPlan}</p>
+                  <p className="text-sm text-muted-foreground"><span className="text-foreground">Best for:</span> {card.bestFor}</p>
+                </div>
+              )
+            })}
+          </div>
+          <div className="p-6 rounded-xl border border-[hsl(var(--gold)/0.4)] bg-[hsl(var(--nav-theme)/0.08)]">
+            <h4 className="font-bebas text-xl mb-4 text-[hsl(var(--nav-theme-light))]">Launch Roster</h4>
+            <div className="flex flex-wrap gap-2">
+              {t.modules.matchTypes.launchRoster.map((fighter: string, i: number) => (
+                <span key={i} className="px-3 py-1 rounded-full bg-card border border-border text-sm">
+                  {fighter}
+                </span>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -518,16 +563,45 @@ export default function HomePage() {
       <section id="showcase" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.showcase.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {t.modules.showcase.moduleName}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <h3 className="text-2xl md:text-3xl font-bebas text-[hsl(var(--nav-theme-light))] mt-6 mb-4">
+              {t.modules.showcase.title}
+            </h3>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.showcase.subtitle}</p>
+            <p className="text-sm text-muted-foreground max-w-4xl mx-auto mt-4">{t.modules.showcase.intro}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {t.modules.showcase.moments.map((moment: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border">
-                <h3 className="text-lg font-bold mb-2 text-[hsl(var(--nav-theme))]">{moment.title}</h3>
-                <p className="text-sm text-muted-foreground">{moment.description}</p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            {Object.entries(t.modules.showcase.roleCounts).map(([role, count], i: number) => (
+              <div key={i} className="p-4 rounded-lg bg-card border border-border text-center">
+                <div className="text-2xl font-bebas text-[hsl(var(--nav-theme))]">{String(count)}</div>
+                <div className="text-xs text-muted-foreground">{role}</div>
               </div>
             ))}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {t.modules.showcase.roleCards.map((roleCard: any, i: number) => {
+              const IconComponent = roleGuideIcons[i] || Gamepad2
+              return (
+                <div key={i} className="p-6 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
+                  <div className="flex items-center justify-between mb-3">
+                    <h3 className="text-xl font-bebas text-[hsl(var(--nav-theme))]">{roleCard.role}</h3>
+                    <IconComponent className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <p className="text-sm text-muted-foreground mb-3">{roleCard.officialSummary}</p>
+                  <p className="text-sm mb-2"><span className="text-muted-foreground">Job:</span> {roleCard.jobInMatch}</p>
+                  <p className="text-sm mb-3"><span className="text-muted-foreground">Positioning:</span> {roleCard.positioning}</p>
+                  <div className="flex flex-wrap gap-2 mb-3">
+                    {roleCard.launchExamples.map((example: string, j: number) => (
+                      <span key={j} className="px-2 py-1 rounded bg-muted text-xs">{example}</span>
+                    ))}
+                  </div>
+                  <p className="text-sm text-[hsl(var(--nav-theme-light))]">{roleCard.quickTip}</p>
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>
@@ -536,14 +610,51 @@ export default function HomePage() {
       <section id="mygm" className="scroll-mt-24 px-4 py-20 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.mygm.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {t.modules.mygm.moduleName}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <h3 className="text-2xl md:text-3xl font-bebas text-[hsl(var(--nav-theme-light))] mt-6 mb-4">
+              {t.modules.mygm.title}
+            </h3>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.mygm.subtitle}</p>
+            <p className="text-sm text-muted-foreground max-w-4xl mx-auto mt-4">{t.modules.mygm.intro}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {t.modules.mygm.features.map((feature: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
-                <h3 className="text-lg font-bold mb-2 text-[hsl(var(--nav-theme))]">{feature.title}</h3>
-                <p className="text-sm text-muted-foreground">{feature.description}</p>
+          <div className="p-6 rounded-xl bg-card border border-border mb-8">
+            <h4 className="font-bebas text-xl mb-4 text-[hsl(var(--nav-theme))]">Loadout Basics</h4>
+            <ul className="space-y-2">
+              {t.modules.mygm.loadoutBasics.map((item: string, i: number) => (
+                <li key={i} className="flex items-start gap-2 text-sm">
+                  <Check className="w-4 h-4 text-[hsl(var(--nav-theme))] mt-0.5 flex-shrink-0" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+            {t.modules.mygm.featuredGeneralAbilities.map((ability: any, i: number) => {
+              const IconComponent = featuredAbilityIcons[i] || Sparkles
+              return (
+                <div key={i} className="p-4 rounded-xl bg-card border border-border hover:border-[hsl(var(--gold)/0.5)] transition-all duration-300">
+                  <IconComponent className="w-5 h-5 text-[hsl(var(--gold))] mb-3" />
+                  <h4 className="font-semibold mb-1">{ability.name}</h4>
+                  <p className="text-xs text-muted-foreground mb-1">{ability.type}</p>
+                  <p className="text-xs text-[hsl(var(--nav-theme-light))]">{ability.artist}</p>
+                </div>
+              )
+            })}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {t.modules.mygm.signatureAbilities.map((entry: any, i: number) => (
+              <div key={i} className="p-5 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300">
+                <div className="flex items-center justify-between mb-2">
+                  <h4 className="font-bebas text-lg text-[hsl(var(--nav-theme))]">{entry.character}</h4>
+                  <span className="px-2 py-1 rounded bg-muted text-xs">{entry.role}</span>
+                </div>
+                <p className="text-sm mb-1"><span className="text-muted-foreground">Passive:</span> {entry.passive}</p>
+                <p className="text-sm text-muted-foreground mb-3">{entry.passiveEffect}</p>
+                <p className="text-sm mb-1"><span className="text-muted-foreground">Unique Ability:</span> {entry.uniqueAbility}</p>
+                <p className="text-sm text-muted-foreground">{entry.uniqueEffect}</p>
               </div>
             ))}
           </div>
@@ -561,21 +672,69 @@ export default function HomePage() {
       <section id="myrise" className="scroll-mt-24 px-4 py-20 bg-muted/30 scroll-reveal">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.myrise.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
+              {t.modules.myrise.moduleName}
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
+            </h2>
+            <h3 className="text-2xl md:text-3xl font-bebas text-[hsl(var(--nav-theme-light))] mt-6 mb-4">
+              {t.modules.myrise.title}
+            </h3>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">{t.modules.myrise.subtitle}</p>
+            <p className="text-sm text-muted-foreground max-w-4xl mx-auto mt-4">{t.modules.myrise.intro}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {t.modules.myrise.divisions.map((division: any, i: number) => (
-              <div key={i} className="p-6 rounded-xl bg-card border border-border">
-                <h3 className="text-xl font-bold mb-3 text-[hsl(var(--nav-theme))]">{division.name}</h3>
-                <p className="text-sm text-muted-foreground mb-4">{division.goal}</p>
-                <div className="flex flex-wrap gap-2">
-                  {division.opponents.map((opponent: string, j: number) => (
-                    <span key={j} className="px-3 py-1 rounded-full bg-muted text-xs">{opponent}</span>
-                  ))}
+          <div className="flex flex-wrap gap-2 justify-center mb-8">
+            {t.modules.myrise.coreRules.map((rule: string, i: number) => (
+              <span key={i} className="px-3 py-1.5 rounded-full border border-[hsl(var(--gold)/0.4)] bg-card text-sm">
+                {rule}
+              </span>
+            ))}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
+            {t.modules.myrise.battleFlow.map((flow: any, i: number) => (
+              <div key={i} className="p-4 rounded-xl bg-card border border-border">
+                <div className="w-7 h-7 rounded-full bg-[hsl(var(--nav-theme))] text-white flex items-center justify-center text-sm font-bebas mb-3">
+                  {flow.step}
                 </div>
+                <h4 className="font-semibold mb-2 text-[hsl(var(--nav-theme))]">{flow.title}</h4>
+                <p className="text-xs text-muted-foreground">{flow.description}</p>
               </div>
             ))}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+            {t.modules.myrise.bestLaunchHelpers.map((helper: any, i: number) => {
+              const IconComponent = helperIcons[i] || Star
+              return (
+                <div key={i} className="p-4 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme))] transition-all duration-300">
+                  <IconComponent className="w-5 h-5 text-[hsl(var(--nav-theme-light))] mb-2" />
+                  <h4 className="font-semibold mb-2">{helper.character}</h4>
+                  <p className="text-sm text-muted-foreground">{helper.reason}</p>
+                </div>
+              )
+            })}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="p-6 rounded-xl bg-card border border-[hsl(var(--nav-theme)/0.4)]">
+              <h4 className="font-bebas text-xl mb-4 text-[hsl(var(--nav-theme))]">Do</h4>
+              <ul className="space-y-2">
+                {t.modules.myrise.doList.map((item: string, i: number) => (
+                  <li key={i} className="flex items-start gap-2 text-sm">
+                    <Check className="w-4 h-4 text-[hsl(var(--nav-theme))] mt-0.5 flex-shrink-0" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="p-6 rounded-xl bg-card border border-[hsl(var(--gold)/0.5)]">
+              <h4 className="font-bebas text-xl mb-4 text-[hsl(var(--gold))]">Do Not</h4>
+              <ul className="space-y-2">
+                {t.modules.myrise.dontList.map((item: string, i: number) => (
+                  <li key={i} className="flex items-start gap-2 text-sm">
+                    <X className="w-4 h-4 text-[hsl(var(--gold))] mt-0.5 flex-shrink-0" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>

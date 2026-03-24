@@ -438,202 +438,360 @@
       ]
     },
     "matchTypes": {
-      "title": "dissidiaduellumfinalfantasy team comps",
-      "subtitle": "Three-player lineups for different win conditions",
-      "quickFacts": [
+      "moduleName": "dissidiaduellumfinalfantasy team comps",
+      "title": "Best Team Comps for Launch",
+      "subtitle": "Build around crystal control, Burst timing, and boss damage.",
+      "intro": "Winning teams do three things well: build Bravery fast, enter Burst on time, and convert that window into boss damage. These launch-week comps use the official launch roster and role kits.",
+      "filters": [
+        "Boss Focus",
+        "Objective Control",
+        "Pick Pressure",
+        "Safe All-Rounder"
+      ],
+      "cards": [
         {
-          "label": "Boss Rush",
-          "value": "Fast burst conversion"
+          "title": "Boss Rush Core",
+          "purpose": "Boss Focus",
+          "lineup": [
+            "Cloud Strife",
+            "Warrior of Light",
+            "Krile Mayer Baldesion"
+          ],
+          "roleSpread": [
+            "Melee",
+            "Support",
+            "Support"
+          ],
+          "synergyTags": [
+            "Boss Damage",
+            "Burst Stability",
+            "Team Buffs"
+          ],
+          "whyItWorks": "Cloud boosts boss damage, Warrior of Light protects the group and buffs nearby allies, and Krile increases team Bravery gain at crystals while passing Bravery to teammates.",
+          "openingPlan": "Stay grouped around early crystal fights, let Krile speed up Bravery income, and keep Cloud healthy for the first major Burst window.",
+          "bestFor": "Players who want a straightforward lineup for races against the boss."
         },
         {
-          "label": "Control Setup",
-          "value": "Crystal-first pressure"
+          "title": "Crystal Control Core",
+          "purpose": "Objective Control",
+          "lineup": [
+            "Lightning",
+            "Krile Mayer Baldesion",
+            "Terra Branford"
+          ],
+          "roleSpread": [
+            "Agile",
+            "Support",
+            "Ranged"
+          ],
+          "synergyTags": [
+            "Fast Farming",
+            "Crystal Pressure",
+            "Backline Control"
+          ],
+          "whyItWorks": "Lightning clears monsters quickly, Krile boosts Bravery gained from purification, and Terra controls space from range while launching enemies away from key lanes.",
+          "openingPlan": "Rotate aggressively between crystal camps, clear mobs with Lightning, and let Terra cover approaches while Krile keeps the team topped up on Bravery.",
+          "bestFor": "Players who want to win through map tempo before the boss race fully starts."
         },
         {
-          "label": "Safe Ranked",
-          "value": "High consistency trio"
+          "title": "Pick and Collapse",
+          "purpose": "Pick Pressure",
+          "lineup": [
+            "Zidane Tribal",
+            "Kain Highwind",
+            "Gaia"
+          ],
+          "roleSpread": [
+            "Agile",
+            "Melee",
+            "Melee"
+          ],
+          "synergyTags": [
+            "Dive",
+            "Bravery Theft",
+            "Speed Pressure"
+          ],
+          "whyItWorks": "Zidane steals Bravery, Kain closes gaps and launches targets, and Gaia boosts her own action speed while pressuring enemy tempo.",
+          "openingPlan": "Look for isolated targets between crystal fights, force short skirmishes, and cash in stolen Bravery before the enemy team can regroup.",
+          "bestFor": "Players who like fast collapses and constant pressure on enemy rotations."
+        },
+        {
+          "title": "Safe All-Rounder",
+          "purpose": "Safe All-Rounder",
+          "lineup": [
+            "Cloud Strife",
+            "Terra Branford",
+            "Warrior of Light"
+          ],
+          "roleSpread": [
+            "Melee",
+            "Ranged",
+            "Support"
+          ],
+          "synergyTags": [
+            "Balanced Frontline",
+            "Reliable Burst",
+            "Easy Positioning"
+          ],
+          "whyItWorks": "Cloud handles frontline pressure and boss damage, Terra gives ranged control, and Warrior of Light smooths out mistakes with protection and ally attack support.",
+          "openingPlan": "Let Warrior of Light anchor the team, keep Terra on safer angles, and use Cloud to finish openings and lead Burst damage.",
+          "bestFor": "Players who want a stable lineup with clear jobs for every role."
         }
       ],
-      "matches": [
-        {
-          "name": "Boss Rush Trio",
-          "description": "Cloud + Prompto + Warrior of Light for stable burst windows and survivable pushes."
-        },
-        {
-          "name": "Crystal Tempo Trio",
-          "description": "Krile + Lightning + Zidane for fast rotations, objective denial, and Bravery lead."
-        },
-        {
-          "name": "Beginner Safe Trio",
-          "description": "Cloud + Terra + Warrior of Light offers direct damage, range safety, and team shielding."
-        },
-        {
-          "name": "Disruptive Ranked Trio",
-          "description": "Gaia + Zidane + Prompto pressures movement while stealing enemy tempo."
-        },
-        {
-          "name": "Balanced Utility Trio",
-          "description": "Terra + Krile + Kain mixes zone control, sustain, and engage tools."
-        }
-      ],
-      "newSystems": [
-        "Draft around objective role coverage, not only damage.",
-        "Always assign one crystal anchor before match start.",
-        "Keep a planned burst caller in each trio."
+      "launchRoster": [
+        "Warrior of Light",
+        "Kain Highwind",
+        "Krile Mayer Baldesion",
+        "Terra Branford",
+        "Cloud Strife",
+        "Rinoa Heartilly",
+        "Zidane Tribal",
+        "Lightning",
+        "Gaia",
+        "Prompto Argentum"
       ]
     },
     "showcase": {
-      "title": "dissidiaduellumfinalfantasy roles guide",
-      "subtitle": "Understand what each role should do in every phase",
-      "quickFacts": [
+      "moduleName": "dissidiaduellumfinalfantasy roles guide",
+      "title": "Four Roles Explained",
+      "subtitle": "Know where to stand, what to do, and which launch characters fit each job.",
+      "intro": "Every fighter belongs to one of four roles: Melee, Ranged, Agile, or Support. The fastest way to improve is to play your lane correctly before chasing flashy fights.",
+      "roleCards": [
         {
-          "label": "Role Set",
-          "value": "Melee / Ranged / Agile / Support"
+          "role": "Melee",
+          "officialSummary": "High in stats, particularly in offensive power. Lead the way and support the frontline.",
+          "jobInMatch": "Start fights, pressure the boss lane, and force enemies away from your damage dealers.",
+          "positioning": "Play near the frontline and threaten short to mid-range paths.",
+          "launchExamples": [
+            "Kain Highwind",
+            "Cloud Strife",
+            "Gaia"
+          ],
+          "quickTip": "Melee players should create space first and cash out on Burst second."
         },
         {
-          "label": "Core Goal",
-          "value": "Boss race advantage"
+          "role": "Ranged",
+          "officialSummary": "Longer range for normal attacks and abilities. Try to strike from the backlines.",
+          "jobInMatch": "Cover crystal approaches, poke safely, and support boss windows without overcommitting.",
+          "positioning": "Stay behind the frontline and use range to keep control of angles.",
+          "launchExamples": [
+            "Terra Branford",
+            "Rinoa Heartilly",
+            "Prompto Argentum"
+          ],
+          "quickTip": "Ranged players win by staying active without getting caught first."
         },
         {
-          "label": "Execution",
-          "value": "Role timing over duels"
+          "role": "Agile",
+          "officialSummary": "Dash with their unique ability and wreak havoc on the battlefield with high mobility.",
+          "jobInMatch": "Rotate quickly, punish weak targets, steal tempo, and disrupt enemy farming routes.",
+          "positioning": "Move between side lanes, crystal camps, and flanks instead of holding one spot.",
+          "launchExamples": [
+            "Zidane Tribal",
+            "Lightning"
+          ],
+          "quickTip": "Agile players should enter, disrupt, and leave before the enemy lineup closes around them."
+        },
+        {
+          "role": "Support",
+          "officialSummary": "Possesses tools to support allies. Leverage each character's unique characteristics to your advantage.",
+          "jobInMatch": "Boost the team, stabilize Bravery, and make Burst windows safer and more consistent.",
+          "positioning": "Stay close enough to influence the fight while avoiding isolated duels.",
+          "launchExamples": [
+            "Warrior of Light",
+            "Krile Mayer Baldesion"
+          ],
+          "quickTip": "Support players should track the whole fight, not just the enemy in front of them."
         }
       ],
-      "moments": [
-        {
-          "title": "Melee Role",
-          "description": "Frontline pressure and decisive engage during boss windows."
-        },
-        {
-          "title": "Ranged Role",
-          "description": "Space control, safe damage, and burst follow-up from range."
-        },
-        {
-          "title": "Agile Role",
-          "description": "Map tempo, fast rotations, and disruption around crystals."
-        },
-        {
-          "title": "Support Role",
-          "description": "Team buffs, mitigation, and stability when pushes begin."
-        }
-      ],
-      "specialFeature": {
-        "name": "Role Sync Checklist",
-        "description": "Assign engage, peel, and burst call responsibilities before queueing."
+      "roleCounts": {
+        "Melee": 3,
+        "Ranged": 3,
+        "Agile": 2,
+        "Support": 2
       }
     },
     "mygm": {
-      "title": "dissidiaduellumfinalfantasy abilities guide",
-      "subtitle": "Build ability plans for boss pressure and map tempo",
-      "quickFacts": [
+      "moduleName": "dissidiaduellumfinalfantasy abilities guide",
+      "title": "Abilities and Loadouts",
+      "subtitle": "Mix signature tools, general skills, and role strengths to shape your playstyle.",
+      "intro": "Each character equips five special abilities. Some are tied to that fighter, while others come from a broader pool of general skills.",
+      "loadoutBasics": [
+        "Equip a mix of character-specific tools and general abilities.",
+        "Use your role to decide whether your loadout should lean toward pressure, mobility, support, or boss damage.",
+        "Builds feel strongest when they match the flow of the map: crystal farm, Burst entry, then boss damage."
+      ],
+      "featuredGeneralAbilities": [
         {
-          "label": "Build Focus",
-          "value": "Burst chain consistency"
+          "name": "Ultimate Shield",
+          "type": "Featured ability",
+          "artist": "Raita Kazama"
         },
         {
-          "label": "Primary Resource",
-          "value": "Bravery control"
+          "name": "Minwu/Teleport",
+          "type": "Featured ability",
+          "artist": "Yoshitaka Amano"
         },
         {
-          "label": "Upgrade Rule",
-          "value": "One carry path first"
+          "name": "Angel Wing",
+          "type": "Featured ability",
+          "artist": "necomi"
         },
         {
-          "label": "Test Mode",
-          "value": "Casual Battles"
+          "name": "Grand Lethal",
+          "type": "Featured ability",
+          "artist": "Toshiyuki Itahana"
         }
       ],
-      "features": [
+      "signatureAbilities": [
         {
-          "title": "Starter Build Path",
-          "description": "Prioritize one core ability that reinforces your chosen main role."
+          "character": "Warrior of Light",
+          "role": "Support",
+          "passive": "Light's Blessing",
+          "passiveEffect": "Increases ATK of nearby allies.",
+          "uniqueAbility": "Shield of Light",
+          "uniqueEffect": "Hold: Decreases damage taken by all allies by 15%."
         },
         {
-          "title": "Boss Window Build",
-          "description": "Equip effects that spike output during coordinated Burst phases."
+          "character": "Kain Highwind",
+          "role": "Melee",
+          "passive": "Honor of the Dragoons",
+          "passiveEffect": "Increases ATK when unique ability attack lands (15s).",
+          "uniqueAbility": "Jump",
+          "uniqueEffect": "Hold: Leap forward and launch nearby foes into the air."
         },
         {
-          "title": "Crystal Tempo Build",
-          "description": "Use utility effects that speed objective setup between skirmishes."
+          "character": "Krile Mayer Baldesion",
+          "role": "Support",
+          "passive": "Inherited Hope",
+          "passiveEffect": "Increases Bravery gained by the team when purifying a crystal.",
+          "uniqueAbility": "Encourage",
+          "uniqueEffect": "Hold: Continuously give your Bravery to allies."
         },
         {
-          "title": "Defensive Build Layer",
-          "description": "Add mitigation tools so your team can commit during push timing."
+          "character": "Terra Branford",
+          "role": "Ranged",
+          "passive": "Half-Esper",
+          "passiveEffect": "Decreases cooldown time of fire abilities.",
+          "uniqueAbility": "Tornado",
+          "uniqueEffect": "Hold: Launch nearby enemies into the air."
         },
         {
-          "title": "Adaptation Rule",
-          "description": "Swap one slot by opponent pace instead of rebuilding everything."
+          "character": "Cloud Strife",
+          "role": "Melee",
+          "passive": "A Sword Entrusted",
+          "passiveEffect": "Increases damage dealt to bosses.",
+          "uniqueAbility": "Ascension",
+          "uniqueEffect": "Hold: Charge a great distance forward, then unleash repeated attacks that launch foes into the air."
+        },
+        {
+          "character": "Rinoa Heartilly",
+          "role": "Ranged",
+          "passive": "Sorceress's Might",
+          "passiveEffect": "Increases Bravery bonus when you respawn.",
+          "uniqueAbility": "Sorceress's Leap",
+          "uniqueEffect": "Hold: Warps you forward."
+        },
+        {
+          "character": "Zidane Tribal",
+          "role": "Agile",
+          "passive": "Master Thief",
+          "passiveEffect": "Increases movement SPD when HP is at 40% or below.",
+          "uniqueAbility": "Dash & Steal",
+          "uniqueEffect": "Hold: Dash and steal Bravery from foes in a cone-shaped area in front of you."
+        },
+        {
+          "character": "Lightning",
+          "role": "Agile",
+          "passive": "Bright Blaze",
+          "passiveEffect": "Increases damage dealt to monsters (excluding bosses).",
+          "uniqueAbility": "Spinning Blitz",
+          "uniqueEffect": "Hold: Dash and repeatedly attack nearby enemies."
+        },
+        {
+          "character": "Gaia",
+          "role": "Melee",
+          "passive": "Necklace of Eternal Ice",
+          "passiveEffect": "Increase DEF while action SPD is increased.",
+          "uniqueAbility": "Reinforcement",
+          "uniqueEffect": "Hold: Increases action SPD (20s)."
+        },
+        {
+          "character": "Prompto Argentum",
+          "role": "Ranged",
+          "passive": "Royal Retinue",
+          "passiveEffect": "Increases damage during a burst chain.",
+          "uniqueAbility": "Rapidus SMG",
+          "uniqueEffect": "Hold: Continuously attack enemies in front of you."
         }
-      ],
-      "ples": [
-        "Burst Chain",
-        "Crystal Purify",
-        "Boss Push",
-        "Disengage",
-        "Re-Entry",
-        "Final Race"
       ]
     },
     "myrise": {
-      "title": "dissidiaduellumfinalfantasy boss guide",
-      "subtitle": "Convert map control into reliable boss damage phases",
-      "quickFacts": [
+      "moduleName": "dissidiaduellumfinalfantasy boss guide",
+      "title": "How to Win the Boss Race",
+      "subtitle": "Farm Bravery, trigger Burst, and convert the window before the other team does.",
+      "intro": "This game is not won by dueling forever. The real objective is to enter Burst on time and break the boss faster than the enemy team.",
+      "battleFlow": [
         {
-          "label": "Boss Rule",
-          "value": "Race before enemy team"
+          "step": 1,
+          "title": "Purify crystals",
+          "description": "Defeat monsters near a crystal to purify it and gain a large amount of team Bravery."
         },
         {
-          "label": "Trigger",
-          "value": "Bravery Burst timing"
+          "step": 2,
+          "title": "Reach max Bravery",
+          "description": "At 9999 Bravery, your team can trigger Bravery Burst."
         },
         {
-          "label": "Win Factor",
-          "value": "Coordinated burst windows"
+          "step": 3,
+          "title": "Enter Burst",
+          "description": "Burst is your damage window against the boss."
+        },
+        {
+          "step": 4,
+          "title": "Chain abilities into boss damage",
+          "description": "Use special moves back to back to maintain pressure and push the boss down quickly."
+        },
+        {
+          "step": 5,
+          "title": "Deny the enemy race",
+          "description": "Defeating enemy players steals their Bravery and slows their next Burst."
         }
       ],
-      "paths": [
+      "coreRules": [
+        "The boss is the win condition.",
+        "Burst mode is the key damage phase.",
+        "Enemy takedowns are valuable because they swing Bravery in your favor."
+      ],
+      "bestLaunchHelpers": [
         {
-          "name": "Fast Push Route",
-          "description": "Take early crystal leads, then force short and repeated boss bursts."
+          "character": "Cloud Strife",
+          "reason": "His passive increases damage dealt to bosses."
         },
         {
-          "name": "Stability Route",
-          "description": "Deny enemy tempo first, then commit to safe multi-player boss windows."
-        }
-      ],
-      "divisions": [
-        {
-          "name": "Damage Phase Plan",
-          "goal": "Burst together and burn before enemy re-entry.",
-          "opponents": [
-            "Pre-Burst setup",
-            "Cooldown alignment",
-            "Burst commit",
-            "Peel and secure",
-            "Reset to crystals"
-          ]
+          "character": "Prompto Argentum",
+          "reason": "His passive increases damage during a burst chain."
         },
         {
-          "name": "Defensive Phase Plan",
-          "goal": "Stop enemy burn windows and recover objective control.",
-          "opponents": [
-            "Zone ranged lanes",
-            "Protect support",
-            "Deny flank routes",
-            "Contest next crystal",
-            "Rebuild Bravery lead"
-          ]
+          "character": "Krile Mayer Baldesion",
+          "reason": "She increases team Bravery gain at crystals and can feed Bravery to allies."
+        },
+        {
+          "character": "Warrior of Light",
+          "reason": "He protects the team during critical Burst setups."
         }
       ],
-      "features": [
-        "Boss calls should happen before gauges are full.",
-        "Do not split burst resources across random side fights.",
-        "Every boss phase ends with a crystal-reset decision."
+      "doList": [
+        "Farm early Bravery with purpose instead of taking random fights.",
+        "Enter Burst with teammates close enough to convert the window.",
+        "Use launch, protection, and mobility tools to keep the boss phase clean.",
+        "Turn enemy picks into immediate boss pressure whenever possible."
       ],
-      "rewards": [
-        "Faster clears",
-        "Stable ranked climbs",
-        "Cleaner rotations"
+      "dontList": [
+        "Do not chase low-value duels while your team loses crystal control.",
+        "Do not enter Burst alone if your team cannot follow up.",
+        "Do not ignore enemy Bravery totals during the race.",
+        "Do not waste your best movement tools before the boss window opens."
       ]
     },
     "universeMode": {
