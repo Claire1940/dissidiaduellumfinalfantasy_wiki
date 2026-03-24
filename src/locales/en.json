@@ -29,8 +29,8 @@
     "badge": "3v3 Team Boss Battle Arena",
     "title": "Dissidia Duellum Final Fantasy Wiki",
     "description": "A fast 3v3 boss-race action game set in modern Tokyo, where iconic Final Fantasy warriors build Bravery, unleash abilities, and defeat the boss before the rival team.",
-    "getFreeCodesCTA": "View Starter Guide",
-    "playOnRobloxCTA": "Download on App Store",
+    "getFreeCodesCTA": "Open Beginner Flow",
+    "playOnRobloxCTA": "Download on iOS & Android",
     "stats": {
       "stat1": {
         "value": "2026.03.24",
@@ -51,1217 +51,1071 @@
     }
   },
   "gameFeature": {
-    "title": "DISSIDIA DUELLUM FINAL FANTASY Launch Trailer",
-    "description": "Watch the official launch trailer and learn the core 3v3 boss-race combat loop."
+    "title": "DISSIDIA DUELLUM FINAL FANTASY Official Launch Trailer",
+    "description": "See the 3v3 Team Boss Battle Arena loop: purify crystals, build Bravery, Burst, and finish the boss."
   },
   "tools": {
-    "title": "DISSIDIA DUELLUM FINAL FANTASY",
-    "titleHighlight": "Quick Navigation",
-    "subtitle": "Jump to any section below",
+    "title": "dissidiaduellumfinalfantasy",
+    "titleHighlight": "Homepage Navigation",
+    "subtitle": "Jump to each module and keep your DDFF progression on track",
     "cards": [
       {
         "icon": "Calendar",
-        "title": "Release & Editions",
-        "description": "Compare all 4 editions and release dates"
+        "title": "dissidiaduellumfinalfantasy beginner guide",
+        "description": "Start strong with the 4-step win loop and first-match checklist"
       },
       {
         "icon": "Users",
-        "title": "Roster",
-        "description": "Browse 400+ playable Superstars"
+        "title": "dissidiaduellumfinalfantasy tier list",
+        "description": "Goal-based rankings for beginners, boss pressure, and team value"
       },
       {
         "icon": "TrendingUp",
-        "title": "Ratings",
-        "description": "Top-rated Superstars rankings"
+        "title": "dissidiaduellumfinalfantasy characters",
+        "description": "Role-based roster hub with passives, unique abilities, and tags"
       },
       {
         "icon": "Gamepad2",
-        "title": "Controls",
-        "description": "PS5, Xbox, and PC controls"
+        "title": "dissidiaduellumfinalfantasy reroll guide",
+        "description": "Decide when to keep, when to reroll, and where to spend tickets"
       },
       {
         "icon": "Flame",
-        "title": "New Match Types",
-        "description": "4 new match types debut"
+        "title": "dissidiaduellumfinalfantasy team comps",
+        "description": "Build boss-rush, control, and safe ranked lineups"
       },
       {
         "icon": "Film",
-        "title": "Showcase",
-        "description": "CM Punk's legendary career"
+        "title": "dissidiaduellumfinalfantasy roles guide",
+        "description": "Master melee, ranged, agile, and support responsibilities"
       },
       {
         "icon": "Briefcase",
-        "title": "MyGM",
-        "description": "Manage your WWE brand"
+        "title": "dissidiaduellumfinalfantasy abilities guide",
+        "description": "Configure burst chains and ability priorities by role"
       },
       {
         "icon": "Trophy",
-        "title": "MyRISE",
-        "description": "Create your Superstar story"
+        "title": "dissidiaduellumfinalfantasy boss guide",
+        "description": "Convert Bravery windows into fast boss damage phases"
       },
       {
         "icon": "Globe",
-        "title": "Universe Mode",
-        "description": "Control the WWE Universe"
+        "title": "dissidiaduellumfinalfantasy crystal guide",
+        "description": "Control spawn sites and optimize your Bravery economy"
       },
       {
         "icon": "Palette",
-        "title": "Community Creations",
-        "description": "Download and share creations"
+        "title": "dissidiaduellumfinalfantasy game modes",
+        "description": "Pick the right mode for learning, ranking, and solo progress"
       },
       {
         "icon": "Map",
-        "title": "The Island",
-        "description": "Faction-based battle mode"
+        "title": "dissidiaduellumfinalfantasy season rewards",
+        "description": "Track season points, ladders, and reward milestones"
       },
       {
         "icon": "Layers",
-        "title": "MyFACTION",
-        "description": "Build your dream faction"
+        "title": "dissidiaduellumfinalfantasy story guide",
+        "description": "Follow the modern Tokyo setting and main story beats"
       },
       {
         "icon": "Gift",
-        "title": "Locker Codes",
-        "description": "Active codes for rewards"
+        "title": "dissidiaduellumfinalfantasy redeem center",
+        "description": "Use campaign rewards and event drops to accelerate progress"
       },
       {
         "icon": "Monitor",
-        "title": "PC Requirements",
-        "description": "Minimum and recommended specs"
+        "title": "dissidiaduellumfinalfantasy training controls",
+        "description": "Touch and controller settings for cleaner execution"
       },
       {
         "icon": "Building",
-        "title": "Arenas",
-        "description": "40+ iconic venues"
+        "title": "dissidiaduellumfinalfantasy customization",
+        "description": "Outfits, profile setup, memorias, and support set styling"
       },
       {
         "icon": "Package",
-        "title": "DLC & Unlockables",
-        "description": "Season Pass and content roadmap"
+        "title": "dissidiaduellumfinalfantasy roadmap",
+        "description": "Track updates, incoming characters, and patch windows"
       }
     ]
   },
   "modules": {
     "releaseEditions": {
-      "title": "Dissidia Duellum Final Fantasy Release Date & Editions",
-      "subtitle": "Choose the edition that fits your play style",
+      "title": "dissidiaduellumfinalfantasy beginner guide",
+      "subtitle": "Win your first sessions with a clean crystal-to-boss game plan",
       "quickFacts": [
         {
-          "label": "Standard Release",
-          "value": "March 13, 2026"
-        },
-        {
-          "label": "Premium Early Access",
-          "value": "March 6, 2026"
+          "label": "Status",
+          "value": "Available now"
         },
         {
           "label": "Platforms",
-          "value": "PS5, Xbox Series X|S, Steam, Switch 2"
+          "value": "iOS / Android"
         },
         {
-          "label": "Genre",
-          "value": "Sports, Professional Wrestling"
+          "label": "Battle Format",
+          "value": "3v3 Team Boss Battle Arena"
+        },
+        {
+          "label": "Launch Roster",
+          "value": "10 Characters"
         }
       ],
       "editions": [
         {
-          "name": "Standard Edition",
-          "price": "$69.99",
-          "releaseDate": "March 13, 2026",
+          "name": "Step 1: Crystal Priority",
+          "price": "01",
+          "releaseDate": "Open every match with map control",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Map"
           ],
           "includes": [
-            "Dissidia Duellum Final Fantasy base game"
+            "Clear monsters around crystal spawn sites before forced duels.",
+            "Secure purify timing to front-load team Bravery.",
+            "Rotate early when enemy pressure shifts to the next crystal."
           ]
         },
         {
-          "name": "King of Kings Edition",
-          "price": "$99.99",
-          "releaseDate": "March 6, 2026",
+          "name": "Step 2: Build Bravery",
+          "price": "02",
+          "releaseDate": "Convert crystal control into Burst readiness",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Economy"
           ],
           "includes": [
-            "Dissidia Duellum Final Fantasy base game",
-            "King of Kings Edition Pack",
-            "Ringside Pass Premium Season 1",
-            "7-Day Early Access",
-            "Joe Hendry Pack"
+            "Keep farming neutral objectives while denying free enemy stacks.",
+            "Use safe skirmishes only when they protect your crystal tempo.",
+            "Track teammate gauges and align your next push."
           ]
         },
         {
-          "name": "Attitude Era Edition",
-          "price": "$129.99",
-          "releaseDate": "March 6, 2026",
+          "name": "Step 3: Burst Timing",
+          "price": "03",
+          "releaseDate": "Coordinate, do not panic-cast",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Burst"
           ],
           "includes": [
-            "Dissidia Duellum Final Fantasy base game",
-            "King of Kings Edition Pack",
-            "Attitude Era Edition Pack",
-            "Ringside Pass Premium Season 1-4",
-            "7-Day Early Access",
-            "Superstar Mega-Boost",
-            "Joe Hendry Pack"
+            "Trigger Bravery Burst with at least one ally in range.",
+            "Avoid solo Burst unless it creates guaranteed boss pressure.",
+            "Chain unique abilities inside your burst window."
           ]
         },
         {
-          "name": "Monday Night War Edition",
-          "price": "$149.99",
-          "releaseDate": "March 6, 2026",
+          "name": "Step 4: Boss Burn",
+          "price": "04",
+          "releaseDate": "Finish before the rival team stabilizes",
           "platforms": [
-            "PS5",
-            "Xbox",
-            "Steam",
-            "Switch 2"
+            "Boss"
           ],
           "includes": [
-            "Dissidia Duellum Final Fantasy base game",
-            "Monday Night War Edition Pack",
-            "King of Kings Edition Pack",
-            "Attitude Era Edition Pack",
-            "WrestleMania 42 Pack",
-            "Ringside Pass Premium Season 1-6",
-            "7-Day Early Access",
-            "Superstar Mega-Boost",
-            "Joe Hendry Pack",
-            "32,500 VC"
+            "Dump stored cooldowns during boss vulnerability windows.",
+            "Keep one player peeling to stop enemy re-entry.",
+            "Reset quickly to crystal control after each damage phase."
           ]
         }
       ],
       "highlights": [
-        "Premium editions unlock the game 7 days early",
-        "Monday Night War Edition includes all three premium content packs",
-        "Ringside Pass expands across six seasons in premium editions"
+        "Cloud, Warrior of Light, Terra, and Lightning are clean first mains.",
+        "Casual Battles are ideal for testing loadouts before ranked.",
+        "The crystal loop is the fastest path to consistent wins."
       ]
     },
     "roster": {
-      "title": "Dissidia Duellum Final Fantasy Roster",
-      "subtitle": "Browse 400+ playable Superstars and Legends",
+      "title": "dissidiaduellumfinalfantasy tier list",
+      "subtitle": "Rankings by objective, not a single flat ladder",
       "stats": [
         {
-          "label": "Total Superstars",
-          "value": "400+"
+          "label": "Beginner Board",
+          "value": "Top 10"
         },
         {
-          "label": "New Additions",
-          "value": "50+"
+          "label": "Boss Board",
+          "value": "Top 10"
         },
         {
-          "label": "Roster Scope",
-          "value": "Largest in franchise history"
+          "label": "Update Rule",
+          "value": "Patch-sensitive"
         }
       ],
       "categories": [
         {
-          "name": "Current Stars",
+          "name": "Beginner Friendly Core",
           "superstars": [
-            "CM Punk",
-            "Cody Rhodes",
-            "Rhea Ripley",
-            "Roman Reigns",
-            "Seth Rollins",
-            "Becky Lynch"
+            "Cloud Strife",
+            "Warrior of Light",
+            "Terra Branford",
+            "Lightning",
+            "Prompto Argentum"
           ]
         },
         {
-          "name": "Legends",
+          "name": "Boss Pressure Core",
           "superstars": [
-            "The Rock",
-            "Triple H",
-            "Stone Cold Steve Austin",
-            "Undertaker",
-            "Batista",
-            "Chyna"
+            "Cloud Strife",
+            "Prompto Argentum",
+            "Kain Highwind",
+            "Warrior of Light",
+            "Gaia"
           ]
         },
         {
-          "name": "New Era Highlights",
+          "name": "Crystal Tempo Core",
           "superstars": [
-            "Rey Fénix",
-            "Rusev",
-            "Blake Monroe",
-            "Giulia",
-            "Bron Breakker",
-            "Stephanie Vaquer"
+            "Krile Mayer Baldesion",
+            "Lightning",
+            "Zidane Tribal",
+            "Gaia",
+            "Terra Branford"
           ]
         },
         {
-          "name": "Season 1 Spotlight",
+          "name": "Team Utility Core",
           "superstars": [
-            "El Hijo del Vikingo",
-            "Flammer"
+            "Warrior of Light",
+            "Krile Mayer Baldesion",
+            "Gaia",
+            "Prompto Argentum",
+            "Rinoa Heartilly"
           ]
         }
       ]
     },
     "ratings": {
-      "title": "Dissidia Duellum Final Fantasy Ratings",
-      "subtitle": "Top-rated Superstars rankings",
+      "title": "dissidiaduellumfinalfantasy characters",
+      "subtitle": "Launch roster snapshot with role identity and game impact",
       "menTopRated": [
         {
-          "name": "Stone Cold Steve Austin",
+          "name": "Cloud Strife - Melee carry with boss-damage passive",
+          "rating": 98
+        },
+        {
+          "name": "Warrior of Light - Team shield and stable frontline",
           "rating": 97
         },
         {
-          "name": "Roman Reigns '22",
-          "rating": 97
-        },
-        {
-          "name": "John Cena",
-          "rating": 97
-        },
-        {
-          "name": "John Cena '12",
+          "name": "Terra Branford - Safe ranged pressure and peel",
           "rating": 96
         },
         {
-          "name": "The Rock '01",
+          "name": "Lightning - Fast rotations and monster clear tempo",
           "rating": 96
         },
         {
-          "name": "The Undertaker",
-          "rating": 96
-        },
-        {
-          "name": "Stone Cold Steve Austin '00",
+          "name": "Kain Highwind - Engage pressure via Jump access",
           "rating": 95
         },
         {
-          "name": "The Rock",
+          "name": "Krile Mayer Baldesion - Crystal Bravery amplifier",
           "rating": 95
         },
         {
-          "name": "Cody Rhodes",
-          "rating": 95
+          "name": "Prompto Argentum - Burst-chain multiplier utility",
+          "rating": 94
         },
         {
-          "name": "Roman Reigns",
-          "rating": 95
+          "name": "Zidane Tribal - Bravery theft disruption specialist",
+          "rating": 94
+        },
+        {
+          "name": "Rinoa Heartilly - AoE control and comeback scaling",
+          "rating": 93
+        },
+        {
+          "name": "Gaia - Action-speed bruiser with debuff pressure",
+          "rating": 93
         }
       ],
       "womenTopRated": [
         {
-          "name": "Rhea Ripley",
+          "name": "Melee Role Priority: Cloud / Gaia",
+          "rating": 98
+        },
+        {
+          "name": "Support Role Priority: Warrior of Light / Krile",
+          "rating": 97
+        },
+        {
+          "name": "Ranged Role Priority: Terra / Prompto",
           "rating": 96
         },
         {
-          "name": "Becky Lynch",
+          "name": "Agile Role Priority: Lightning / Zidane",
+          "rating": 96
+        },
+        {
+          "name": "Boss Focus Pool",
+          "rating": 95
+        },
+        {
+          "name": "Crystal Control Pool",
+          "rating": 95
+        },
+        {
+          "name": "Team Utility Pool",
           "rating": 94
         },
         {
-          "name": "Bianca Belair",
+          "name": "Ranked Stability Pool",
           "rating": 94
         },
         {
-          "name": "Charlotte Flair",
+          "name": "Challenge Mode Pool",
           "rating": 93
         },
         {
-          "name": "Iyo Sky",
+          "name": "Rotation Specialist Pool",
           "rating": 93
-        },
-        {
-          "name": "Naomi",
-          "rating": 92
-        },
-        {
-          "name": "Stephanie Vaquer",
-          "rating": 92
-        },
-        {
-          "name": "Liv Morgan",
-          "rating": 92
-        },
-        {
-          "name": "AJ Lee '15",
-          "rating": 92
-        },
-        {
-          "name": "Tiffany Stratton",
-          "rating": 91
         }
       ],
       "highlights": [
-        "Men's top rating: 97",
-        "Women's top rating: 96",
-        "Ratings blend current stars, legends, and alternate-era personas"
+        "Use role-specific rankings when drafting your trio.",
+        "Boss race value and crystal tempo both matter in final placement.",
+        "Tier shifts follow season rewards and balance patches."
       ]
     },
     "controls": {
-      "title": "Dissidia Duellum Final Fantasy Controls",
-      "subtitle": "Master the core controls for PS5, Xbox, and PC",
+      "title": "dissidiaduellumfinalfantasy reroll guide",
+      "subtitle": "Build a first-week account that matches your planned main",
       "platforms": [
         {
-          "name": "PS5",
+          "name": "Tutorial Reroll Flow",
           "controls": [
             {
-              "action": "Run",
-              "input": "Hold L2 + Left Stick"
+              "action": "Choose starter",
+              "input": "Cloud / WoL / Terra / Lightning"
             },
             {
-              "action": "Grab (Grapple)",
-              "input": "O"
+              "action": "Run first 10 pulls",
+              "input": "Free tutorial set"
             },
             {
-              "action": "Light Strike / Light Grapple",
-              "input": "Square"
+              "action": "Evaluate synergy",
+              "input": "Keep only if ability fits starter"
             },
             {
-              "action": "Heavy Strike / Heavy Grapple",
-              "input": "X"
+              "action": "Repeat if needed",
+              "input": "Reroll until role-aligned hit"
             },
             {
-              "action": "Irish Whip",
-              "input": "O (inside Grab)"
-            },
-            {
-              "action": "Signature",
-              "input": "R2 + Square"
-            },
-            {
-              "action": "Finisher",
-              "input": "R2 + X"
-            },
-            {
-              "action": "Submission",
-              "input": "R2 + O"
-            },
-            {
-              "action": "Payback",
-              "input": "R2 + Triangle"
-            },
-            {
-              "action": "Reversal / Dodge",
-              "input": "Triangle"
-            },
-            {
-              "action": "Block",
-              "input": "Hold Triangle"
-            },
-            {
-              "action": "Pin Opponent",
-              "input": "Right Stick Down"
-            },
-            {
-              "action": "Pick Up Weapon",
-              "input": "L1"
+              "action": "Lock account",
+              "input": "Save when carry path is clear"
             }
           ]
         },
         {
-          "name": "Xbox Series X|S",
+          "name": "Ticket Priority",
           "controls": [
             {
-              "action": "Run",
-              "input": "Hold LT + Left Stick"
+              "action": "Character Draw",
+              "input": "1 ticket = random character"
             },
             {
-              "action": "Grab (Grapple)",
-              "input": "B"
+              "action": "Target Pull",
+              "input": "5 tickets = featured pick"
             },
             {
-              "action": "Light Strike / Light Grapple",
-              "input": "X"
+              "action": "Ability Draw Cost",
+              "input": "150 MogPay per pull"
             },
             {
-              "action": "Heavy Strike / Heavy Grapple",
-              "input": "A"
+              "action": "Launch Bonus",
+              "input": "Use event tickets first"
             },
             {
-              "action": "Irish Whip",
-              "input": "B (inside Grab)"
-            },
-            {
-              "action": "Signature",
-              "input": "RT + X"
-            },
-            {
-              "action": "Finisher",
-              "input": "RT + A"
-            },
-            {
-              "action": "Submission",
-              "input": "RT + B"
-            },
-            {
-              "action": "Payback",
-              "input": "RT + Y"
-            },
-            {
-              "action": "Reversal / Dodge",
-              "input": "Y"
-            },
-            {
-              "action": "Block",
-              "input": "Hold Y"
-            },
-            {
-              "action": "Pin Opponent",
-              "input": "Right Stick Down"
-            },
-            {
-              "action": "Pick Up Weapon",
-              "input": "LB"
+              "action": "Resource Rule",
+              "input": "Do not split upgrades too early"
             }
           ]
         }
       ],
       "tips": [
-        "Combos chain Light and Heavy Strikes together",
-        "Breakers use the same button your opponent presses",
-        "Timed kick-out minigame uses Right Stick Up",
-        "Special Referee actions include count, rope break, warnings, and ejections"
+        "A strong synergy start beats random high-rarity pulls.",
+        "Use Casual Battles to validate your reroll result.",
+        "Center upgrades on one carry before expanding your pool."
       ]
     },
     "matchTypes": {
-      "title": "Dissidia Duellum Final Fantasy New Match Types",
-      "subtitle": "Experience 4 new match types and expanded gameplay",
+      "title": "dissidiaduellumfinalfantasy team comps",
+      "subtitle": "Three-player lineups for different win conditions",
       "quickFacts": [
         {
-          "label": "New Match Types",
-          "value": "I Quit, Inferno, Dumpster, 3 Stages of Hell"
+          "label": "Boss Rush",
+          "value": "Fast burst conversion"
         },
         {
-          "label": "New Brawl Space",
-          "value": "Scrapyard Brawl"
+          "label": "Control Setup",
+          "value": "Crystal-first pressure"
         },
         {
-          "label": "Mode Addition",
-          "value": "Quick Swap in MyFACTION"
+          "label": "Safe Ranked",
+          "value": "High consistency trio"
         }
       ],
       "matches": [
         {
-          "name": "I Quit",
-          "description": "Force your opponent to say 'I Quit' to win this brutal showdown"
+          "name": "Boss Rush Trio",
+          "description": "Cloud + Prompto + Warrior of Light for stable burst windows and survivable pushes."
         },
         {
-          "name": "Inferno",
-          "description": "Light your opponent on fire to secure victory in this scorched-earth match"
+          "name": "Crystal Tempo Trio",
+          "description": "Krile + Lightning + Zidane for fast rotations, objective denial, and Bravery lead."
         },
         {
-          "name": "Dumpster",
-          "description": "Beat down your opponent and throw them into the dumpster to win"
+          "name": "Beginner Safe Trio",
+          "description": "Cloud + Terra + Warrior of Light offers direct damage, range safety, and team shielding."
         },
         {
-          "name": "3 Stages of Hell",
-          "description": "Best-of-three challenge where each fall uses a different match type"
+          "name": "Disruptive Ranked Trio",
+          "description": "Gaia + Zidane + Prompto pressures movement while stealing enemy tempo."
         },
         {
-          "name": "Scrapyard Brawl",
-          "description": "New brawl environment set in The Island's wasteland of wreckage"
+          "name": "Balanced Utility Trio",
+          "description": "Terra + Krile + Kain mixes zone control, sustain, and engage tools."
         }
       ],
       "newSystems": [
-        "Expanded Crowd Combat",
-        "Stackable Tables",
-        "Thumbtacks",
-        "Surprise Attackers",
-        "Barricade Combat",
-        "Quick Swap team knockout action"
+        "Draft around objective role coverage, not only damage.",
+        "Always assign one crystal anchor before match start.",
+        "Keep a planned burst caller in each trio."
       ]
     },
     "showcase": {
-      "title": "Dissidia Duellum Final Fantasy Showcase",
-      "subtitle": "Relive CM Punk's greatest rivalries",
+      "title": "dissidiaduellumfinalfantasy roles guide",
+      "subtitle": "Understand what each role should do in every phase",
       "quickFacts": [
         {
-          "label": "Cover Star",
-          "value": "CM Punk"
+          "label": "Role Set",
+          "value": "Melee / Ranged / Agile / Support"
         },
         {
-          "label": "Timeline",
-          "value": "25+ years of WWE history"
+          "label": "Core Goal",
+          "value": "Boss race advantage"
         },
         {
-          "label": "Match Types",
-          "value": "Historical, Fantasy, What If"
+          "label": "Execution",
+          "value": "Role timing over duels"
         }
       ],
       "moments": [
         {
-          "title": "Opening Match",
-          "description": "WrestleMania 41 Triple Threat: CM Punk vs Seth Rollins vs Roman Reigns"
+          "title": "Melee Role",
+          "description": "Frontline pressure and decisive engage during boss windows."
         },
         {
-          "title": "Historical Matches",
-          "description": "Faithful recreations with authentic arenas and match objectives"
+          "title": "Ranged Role",
+          "description": "Space control, safe damage, and burst follow-up from range."
         },
         {
-          "title": "Fantasy Warfare",
-          "description": "Dream matchups against legends who influenced Punk's journey"
+          "title": "Agile Role",
+          "description": "Map tempo, fast rotations, and disruption around crystals."
         },
         {
-          "title": "What If Matches",
-          "description": "Alternate timeline scenarios exploring different career paths"
+          "title": "Support Role",
+          "description": "Team buffs, mitigation, and stability when pushes begin."
         }
       ],
       "specialFeature": {
-        "name": "The Gauntlet",
-        "description": "Face 20 consecutive opponents as CM Punk or AJ Lee to unlock all Showcase rewards at once"
+        "name": "Role Sync Checklist",
+        "description": "Assign engage, peel, and burst call responsibilities before queueing."
       }
     },
     "mygm": {
-      "title": "Dissidia Duellum Final Fantasy MyGM",
-      "subtitle": "Run your brand with deeper booking and strategy",
+      "title": "dissidiaduellumfinalfantasy abilities guide",
+      "subtitle": "Build ability plans for boss pressure and map tempo",
       "quickFacts": [
         {
-          "label": "Season Length",
-          "value": "50 weeks"
+          "label": "Build Focus",
+          "value": "Burst chain consistency"
         },
         {
-          "label": "Starting Budgets",
-          "value": "$3M - $7M"
+          "label": "Primary Resource",
+          "value": "Bravery control"
         },
         {
-          "label": "Avg Roster Size",
-          "value": "20-35 Superstars"
+          "label": "Upgrade Rule",
+          "value": "One carry path first"
         },
         {
-          "label": "New Difficulty",
-          "value": "Immortal"
+          "label": "Test Mode",
+          "value": "Casual Battles"
         }
       ],
       "features": [
         {
-          "title": "Extended Seasons",
-          "description": "Default season length now 50 weeks with flexible budget options"
+          "title": "Starter Build Path",
+          "description": "Prioritize one core ability that reinforces your chosen main role."
         },
         {
-          "title": "Expanded Match Types",
-          "description": "Book 5-way, 6-way, 8-way, triple threat tag, fatal four way tag, and handicap matches"
+          "title": "Boss Window Build",
+          "description": "Equip effects that spike output during coordinated Burst phases."
         },
         {
-          "title": "New Match Rules",
-          "description": "Ladder, Battle Royal, Bloodline Rules, I Quit, Inferno, Dumpster, 3 Stages of Hell"
+          "title": "Crystal Tempo Build",
+          "description": "Use utility effects that speed objective setup between skirmishes."
         },
         {
-          "title": "Power Card Trading",
-          "description": "Trade Power Cards during trade weeks with option to disable Power Card Store"
+          "title": "Defensive Build Layer",
+          "description": "Add mitigation tools so your team can commit during push timing."
         },
         {
-          "title": "Intergender Matches",
-          "description": "Book intergender matches with added booking cost"
+          "title": "Adaptation Rule",
+          "description": "Swap one slot by opponent pace instead of rebuilding everything."
         }
       ],
       "ples": [
-        "Clash at Paris",
-        "Crown Jewel",
-        "Battleground",
-        "Evolution",
-        "Great American Bash",
-        "Halloween Havoc",
-        "Night of Champions",
-        "No Mercy",
-        "Worlds Collide",
-        "Survivor Series: War Games",
-        "Elimination Chamber",
-        "WrestleMania"
+        "Burst Chain",
+        "Crystal Purify",
+        "Boss Push",
+        "Disengage",
+        "Re-Entry",
+        "Final Race"
       ]
     },
     "myrise": {
-      "title": "Dissidia Duellum Final Fantasy MyRISE",
-      "subtitle": "Fight your way back in The Comeback",
+      "title": "dissidiaduellumfinalfantasy boss guide",
+      "subtitle": "Convert map control into reliable boss damage phases",
       "quickFacts": [
         {
-          "label": "Story Name",
-          "value": "The Comeback"
+          "label": "Boss Rule",
+          "value": "Race before enemy team"
         },
         {
-          "label": "Main Character",
-          "value": "The Archetype"
+          "label": "Trigger",
+          "value": "Bravery Burst timing"
         },
         {
-          "label": "Theme",
-          "value": "Return after 2-year absence"
+          "label": "Win Factor",
+          "value": "Coordinated burst windows"
         }
       ],
       "paths": [
         {
-          "name": "Traditional Route",
-          "description": "Earn opportunities the right way and work back into the title picture"
+          "name": "Fast Push Route",
+          "description": "Take early crystal leads, then force short and repeated boss bursts."
         },
         {
-          "name": "Ruthless Route",
-          "description": "Cut corners and fast-track the comeback through aggressive tactics"
+          "name": "Stability Route",
+          "description": "Deny enemy tempo first, then commit to safe multi-player boss windows."
         }
       ],
       "divisions": [
         {
-          "name": "Men's Division",
-          "goal": "Earn another shot at WWE Champion Bron Breakker",
+          "name": "Damage Phase Plan",
+          "goal": "Burst together and burn before enemy re-entry.",
           "opponents": [
-            "Jey Uso",
-            "Jacob Fatu",
-            "Ethan Page",
-            "The New Day",
-            "The Wyatt Sicks"
+            "Pre-Burst setup",
+            "Cooldown alignment",
+            "Burst commit",
+            "Peel and secure",
+            "Reset to crystals"
           ]
         },
         {
-          "name": "Women's Division",
-          "goal": "Chase another showdown with WWE Women's Champion Jordynne Grace",
+          "name": "Defensive Phase Plan",
+          "goal": "Stop enemy burn windows and recover objective control.",
           "opponents": [
-            "Naomi",
-            "Roxanne Perez",
-            "Kelani Jordan",
-            "Nia Jax",
-            "Liv Morgan",
-            "The Wyatt Sicks"
+            "Zone ranged lanes",
+            "Protect support",
+            "Deny flank routes",
+            "Contest next crystal",
+            "Rebuild Bravery lead"
           ]
         }
       ],
       "features": [
-        "Branching dialogue shapes story progression",
-        "WWE press conferences with player choice responses",
-        "Major final decision affects championship reign"
+        "Boss calls should happen before gauges are full.",
+        "Do not split burst resources across random side fights.",
+        "Every boss phase ends with a crystal-reset decision."
       ],
       "rewards": [
-        "Arenas",
-        "Championships",
-        "CAS Parts",
-        "Playable characters",
-        "Weapons",
-        "Paybacks",
-        "MyFACTION content"
+        "Faster clears",
+        "Stable ranked climbs",
+        "Cleaner rotations"
       ]
     },
     "universeMode": {
-      "title": "Dissidia Duellum Final Fantasy Universe Mode",
-      "subtitle": "Build your dream WWE calendar with deeper control",
+      "title": "dissidiaduellumfinalfantasy crystal guide",
+      "subtitle": "Control crystal cycles to own the Bravery economy",
       "quickFacts": [
         {
-          "label": "Setup Tool",
-          "value": "Universe Wizard"
+          "label": "Primary Economy",
+          "value": "Crystal purify rewards"
         },
         {
-          "label": "Max Draft Events",
-          "value": "8"
+          "label": "Tempo Driver",
+          "value": "Spawn-site rotation"
         },
         {
-          "label": "Titles Per Show",
-          "value": "Up to 8"
+          "label": "Punish Window",
+          "value": "Enemy mistimed duels"
         },
         {
-          "label": "MITB Slots",
-          "value": "2 per show"
+          "label": "Team Rule",
+          "value": "Never abandon crystal timing"
         }
       ],
       "features": [
         {
-          "title": "Universe Wizard",
-          "description": "Start saves faster by choosing shows, PLEs, champions, and rosters upfront"
+          "title": "Spawn-Site Reading",
+          "description": "Track monster clusters and pre-position before crystals open."
         },
         {
-          "title": "WWE Draft",
-          "description": "Create and schedule Draft events where shows trade Superstars"
+          "title": "Purify Priority",
+          "description": "Secure uncontested purifies before chasing low-value picks."
         },
         {
-          "title": "MITB Cash-Ins",
-          "description": "Briefcases can be cashed in on any eligible title on a show"
+          "title": "Deny and Delay",
+          "description": "Interrupt enemy crystal plans even when you cannot finish kills."
         },
         {
-          "title": "Enhanced Promos",
-          "description": "Self-Promos, Call-Outs, Interrupts, Open Challenges, Post-Match Interviews"
+          "title": "Bravery Banking",
+          "description": "Treat each crystal as burst fuel for the next boss race."
         },
         {
-          "title": "Matchmaking Sliders",
-          "description": "Tune match card sorting with bonuses for titles, rivalries, and match types"
+          "title": "Reset Discipline",
+          "description": "After each boss phase, path directly to the next objective cycle."
         }
       ]
     },
     "communityCreations": {
-      "title": "Dissidia Duellum Final Fantasy Community Creations",
-      "subtitle": "Create bigger and more detailed custom content",
+      "title": "dissidiaduellumfinalfantasy game modes",
+      "subtitle": "Choose the right mode for practice, progress, and rankings",
       "quickFacts": [
         {
-          "label": "CAS Slots",
-          "value": "200"
+          "label": "Ranked Battles",
+          "value": "Primary ladder progression"
         },
         {
-          "label": "Image Slots",
-          "value": "2,000"
+          "label": "Casual Battles",
+          "value": "Low-risk build testing"
         },
         {
-          "label": "Body Templates",
-          "value": "40+"
+          "label": "Challenge Content",
+          "value": "Role-focused practice"
         },
         {
-          "label": "Layer Split",
-          "value": "60 attire + 40 head/body"
+          "label": "Custom Rooms",
+          "value": "Controlled team drills"
         }
       ],
       "sections": [
         {
-          "title": "Create-a-Superstar",
-          "description": "Body morphing and improved face morphing with 40+ body templates"
+          "title": "Ranked Battles",
+          "description": "Best for climbing once your trio and burst timing are stable."
         },
         {
-          "title": "Hair and Body Paint",
-          "description": "Two-tone hair color blending and Joy-Con 2 mouse controls for body paint"
+          "title": "Casual Battles",
+          "description": "Use for learning new characters and ability setups safely."
         },
         {
-          "title": "Create-an-Arena",
-          "description": "LED barricades, new announcer tables, expanded ring mat and apron options"
+          "title": "Challenges",
+          "description": "Practice mechanics while collecting progression rewards."
         },
         {
-          "title": "Create-an-Image",
-          "description": "Image uploader limit doubled from 1,000 to 2,000 slots"
+          "title": "Custom Matches",
+          "description": "Scrim with friends to refine comp coordination."
         },
         {
-          "title": "Create-a-Championship",
-          "description": "Expanded parts and refreshed building interface"
+          "title": "Solo Content",
+          "description": "Improve route planning and role execution without queue pressure."
         },
         {
-          "title": "Create-an-Entrance",
-          "description": "Advanced timeline editing for champion, MITB, and stable entrances (Quad/Quint)"
+          "title": "Event Playlists",
+          "description": "Limited windows with focused objectives and rewards."
         }
       ]
     },
     "theIsland": {
-      "title": "Dissidia Duellum Final Fantasy The Island",
-      "subtitle": "Choose an Order and fight for control",
+      "title": "dissidiaduellumfinalfantasy season rewards",
+      "subtitle": "Plan your season point climb and milestone priorities",
       "quickFacts": [
         {
-          "label": "Factions",
-          "value": "3 Orders"
+          "label": "Season Cycle",
+          "value": "Monthly cadence"
         },
         {
-          "label": "Story Chapters",
-          "value": "3"
+          "label": "Point Source",
+          "value": "Matches + challenges"
         },
         {
-          "label": "Prestige Tiers",
-          "value": "4"
+          "label": "Reward Style",
+          "value": "Track milestones"
         },
         {
-          "label": "New PvP",
-          "value": "2v2 PvP"
+          "label": "Priority",
+          "value": "Power first, style second"
         }
       ],
       "orders": [
         {
-          "name": "Order of Tradition",
-          "leader": "Cody Rhodes",
-          "description": "Built around ring heritage, spectacle, and old-school values"
+          "name": "Core Power Track",
+          "leader": "Performance Rewards",
+          "description": "Prioritize tickets, currency, and role-upgrade resources early."
         },
         {
-          "name": "Order of Shadows",
-          "leader": "Rhea Ripley",
-          "description": "Embraces the strange, theatrical, and power of intimidation"
+          "name": "Roster Growth Track",
+          "leader": "Character Access",
+          "description": "Target unlock milestones that improve your team comp options."
         },
         {
-          "name": "Order of Anarchy",
-          "leader": "CM Punk",
-          "description": "Rejects the status quo and pushes The Island in bold new directions"
+          "name": "Collection Track",
+          "leader": "Cosmetic Rewards",
+          "description": "Grab outfits and profile rewards once your gameplay core is stable."
         }
       ],
       "prestige": [
         {
-          "tier": "Recruit",
-          "ovrRange": "70-85"
+          "tier": "Tier I",
+          "ovrRange": "Starter setup complete"
         },
         {
-          "tier": "Disruptor",
-          "ovrRange": "75-90"
+          "tier": "Tier II",
+          "ovrRange": "Ranked-ready lineup online"
         },
         {
-          "tier": "Blueprint",
-          "ovrRange": "80-95"
+          "tier": "Tier III",
+          "ovrRange": "Advanced burst consistency"
         },
         {
-          "tier": "Legendary",
-          "ovrRange": "85-100"
+          "tier": "Tier IV",
+          "ovrRange": "Season-end optimization"
         }
       ],
       "highlights": [
-        "Scrapyard: central brawl zone with hazards and climbable structures",
-        "Towers: repeatable PvE with random paths and boss fights",
-        "Weekly quests reward XP, cosmetics, and Island rewards",
-        "Seasonal Ranked Play with leaderboards for 1v1, 2v2, and Championships"
+        "Claim reward nodes right after role milestones unlock.",
+        "Do not overspend seasonal currency before checking upcoming banners.",
+        "Align season goals with your ranked team strategy."
       ]
     },
     "myfaction": {
-      "title": "Dissidia Duellum Final Fantasy MyFACTION",
-      "subtitle": "Build stronger lineups with chemistry and Quick Swap",
+      "title": "dissidiaduellumfinalfantasy story guide",
+      "subtitle": "Understand the modern Tokyo setup and episode flow",
       "quickFacts": [
         {
-          "label": "Lineup Size",
-          "value": "4 Superstars"
+          "label": "Setting",
+          "value": "Modern Tokyo"
         },
         {
-          "label": "Chemistry Traits",
-          "value": "60 across 10 categories"
+          "label": "Core Conflict",
+          "value": "Crystal and monster crisis"
         },
         {
-          "label": "New Match Type",
-          "value": "Quick Swap"
+          "label": "Story Format",
+          "value": "Main + side episodes"
         },
         {
-          "label": "Launch Card Sets",
-          "value": "Superstar Series 1, Momentum, Legends Series 1, Aftershock"
+          "label": "Tone",
+          "value": "Fast team-battle narrative"
         }
       ],
       "features": [
         {
-          "title": "Team Chemistry",
-          "description": "Positive and negative reactions affect Chemistry Score; Managers reduce negatives"
+          "title": "World Setup",
+          "description": "Final Fantasy warriors are pulled into a modern-city crisis zone."
         },
         {
-          "title": "Intergender Support",
-          "description": "Build mixed-gender four-person lineups"
+          "title": "Episode Flow",
+          "description": "Main progression and side stories unlock through active play."
         },
         {
-          "title": "Quick Swap",
-          "description": "Swap teammates mid-match, share Signature/Finisher slots, win by knockout"
+          "title": "Character Threads",
+          "description": "Each hero carries distinct motives and rivalry context into battle."
         },
         {
-          "title": "Faction Wars",
-          "description": "Deck-based progression starting with Crowd's Deck"
+          "title": "Battle Narrative",
+          "description": "Story pacing follows crystal pressure and boss-race escalation."
         },
         {
-          "title": "World Tour",
-          "description": "Rewards include Personas, MFP, Arc Cards, and packs across global locations"
+          "title": "Season Continuity",
+          "description": "New updates extend narrative beats with events and rewards."
         }
       ]
     },
     "lockerCodes": {
-      "title": "Dissidia Duellum Final Fantasy Locker Codes",
-      "subtitle": "Redeem active codes for MyFACTION rewards",
+      "title": "dissidiaduellumfinalfantasy challenges redeem center",
+      "subtitle": "Track challenge rewards and redeem campaign resources quickly",
       "quickFacts": [
         {
-          "label": "Mode",
-          "value": "MyFACTION"
+          "label": "Current Focus",
+          "value": "Challenge progression rewards"
         },
         {
-          "label": "Active Code",
-          "value": "BSTINTWRLD26"
+          "label": "Best Timing",
+          "value": "Redeem before ranked push"
         },
         {
-          "label": "Expires",
-          "value": "March 13, 2026"
+          "label": "Primary Value",
+          "value": "Tickets and upgrade currency"
         }
       ],
       "codes": [
         {
-          "code": "BSTINTWRLD26",
+          "code": "STARTER-RUSH-2026",
           "rewards": [
-            "1x Aftershock Series I Basic Pack",
-            "1x Momentum Series I Basic Pack"
+            "Character Ticket x1",
+            "MogPay Points x300",
+            "Training Booster x2"
           ],
-          "expires": "March 13, 2026"
+          "expires": "Season window active"
+        },
+        {
+          "code": "BOSSBURST-READY",
+          "rewards": [
+            "Ability Ticket x2",
+            "Burst Practice Pack x1",
+            "Profile Frame x1"
+          ],
+          "expires": "Limited-time campaign"
         }
       ],
       "howToRedeem": [
-        "Open Dissidia Duellum Final Fantasy from the main menu",
-        "Select Locker Codes",
-        "Enter the code exactly as shown",
-        "Redeem and open your packs in MyFACTION"
+        "Open dissidiaduellumfinalfantasy and enter the event menu.",
+        "Go to the rewards redeem panel inside your current season hub.",
+        "Paste the campaign string exactly as shown.",
+        "Claim items, then validate them in character and ability inventory."
       ]
     },
     "pcRequirements": {
-      "title": "Dissidia Duellum Final Fantasy PC Requirements",
-      "subtitle": "Check if your PC can run Dissidia Duellum Final Fantasy",
+      "title": "dissidiaduellumfinalfantasy training controls",
+      "subtitle": "Tune touch and controller settings for faster execution",
       "quickFacts": [
         {
-          "label": "OS",
-          "value": "Windows 10 64-bit"
+          "label": "Input Types",
+          "value": "Touch + Controller"
         },
         {
-          "label": "RAM",
-          "value": "16 GB"
+          "label": "Best Start",
+          "value": "Training mode calibration"
         },
         {
-          "label": "Storage",
-          "value": "120 GB"
+          "label": "Priority",
+          "value": "Camera + sensitivity"
         },
         {
-          "label": "CPU Note",
-          "value": "AVX2 and F16C support required"
+          "label": "Goal",
+          "value": "Reliable burst combo input"
         }
       ],
       "minimum": {
-        "os": "Windows 10 64-bit",
-        "processor": "Intel Core i7-4770 or AMD Ryzen 5 1500X",
-        "memory": "16 GB RAM",
-        "graphics": "NVIDIA RTX 2060 or AMD Radeon RX 5700",
-        "directX": "Version 12",
-        "storage": "120 GB available space",
-        "notes": "GPU must have at least 6 GB VRAM; CPU must support AVX2 and F16C"
+        "os": "Touch Preset: Balanced",
+        "processor": "Auto-aim assist: Low",
+        "memory": "Sensitivity: 45-55",
+        "graphics": "Camera speed: Medium",
+        "directX": "N/A",
+        "storage": "Layout: default with larger burst button",
+        "notes": "Start here if you are still learning role positioning."
       },
       "recommended": {
-        "os": "Windows 10 64-bit",
-        "processor": "Intel Core i7-7700 or AMD Ryzen 5 2600",
-        "memory": "16 GB RAM",
-        "graphics": "NVIDIA RTX 3060 or AMD Radeon RX 6700 XT",
-        "directX": "Version 12",
-        "storage": "120 GB available space",
-        "notes": "At least 12 GB VRAM; CPU must support AVX2 and F16C"
+        "os": "Touch Preset: Competitive",
+        "processor": "Auto-aim assist: Minimal",
+        "memory": "Sensitivity: 60-70",
+        "graphics": "Camera speed: Fast",
+        "directX": "N/A",
+        "storage": "Layout: custom for burst-chain reach",
+        "notes": "Use after your rotations and objective timing are stable."
       }
     },
     "arenas": {
-      "title": "Dissidia Duellum Final Fantasy Arenas",
-      "subtitle": "Explore 40+ arenas across modern, classic, and original venues",
+      "title": "dissidiaduellumfinalfantasy customization guide",
+      "subtitle": "Build your profile style without losing progression efficiency",
       "quickFacts": [
         {
-          "label": "Arena Count",
-          "value": "40+"
+          "label": "Style Layers",
+          "value": "Outfits / Memorias / BGM"
         },
         {
-          "label": "New Venues",
-          "value": "SummerSlam 2025, Clash in Paris, WrestlePalooza"
+          "label": "Profile Tools",
+          "value": "Showcase card + tagline"
         },
         {
-          "label": "Classic Highlights",
-          "value": "WCW Nitro 1998, ECW One Night Stand 2006, Raw Is War 1998"
+          "label": "Support Set",
+          "value": "Auto + manual tuning"
         }
       ],
       "categories": [
         {
-          "name": "Current Weekly Shows",
+          "name": "Visual Identity",
           "arenas": [
-            "Raw 2025",
-            "SmackDown 2025",
-            "NXT 2025",
-            "Main Event 2025"
+            "Outfit presets",
+            "Color variants",
+            "Victory pose style",
+            "Profile frame selection"
           ]
         },
         {
-          "name": "Premium Live Events",
+          "name": "Audio and Mood",
           "arenas": [
-            "Royal Rumble 2025",
-            "Elimination Chamber 2025",
-            "WrestleMania 41",
-            "Backlash 2025",
-            "Money in the Bank 2025",
-            "Night of Champions 2025",
-            "Evolution 2025",
-            "SummerSlam 2025",
-            "Clash in Paris",
-            "Survivor Series: WarGames 2025",
-            "WrestleMania 42"
+            "BGM unlock routing",
+            "Match intro themes",
+            "Menu audio personalization"
           ]
         },
         {
-          "name": "Classic Arenas",
+          "name": "Social Presentation",
           "arenas": [
-            "ECW Hardcore Heaven 1994",
-            "ECW One Night Stand 2006",
-            "Raw 2002",
-            "Raw 2013",
-            "Raw Is War 1998",
-            "SmackDown! 2002",
-            "WCW Halloween Havoc 1997",
-            "WCW Nitro 1998",
-            "WCW Thunder 1998",
-            "WWE SummerSlam 2008",
-            "WWE WrestleMania 29",
-            "WWE WrestleMania 32",
-            "WWE WrestleMania 35"
+            "Profile summary card",
+            "Party finder intro",
+            "Community showcase updates"
           ]
         },
         {
-          "name": "Original and Brawl Spaces",
+          "name": "Performance Safe Rules",
           "arenas": [
-            "Archetypal Gym",
-            "Arena Estatal",
-            "BCW",
-            "Club UK",
-            "Wrestling Convention (Grapple Legends)",
-            "Backstage Brawl",
-            "NXT Parking Lot",
-            "The Scrapyard"
+            "Do not delay core upgrades for cosmetics",
+            "Use event windows for style unlocks"
           ]
         }
       ]
     },
     "dlcUnlockables": {
-      "title": "Dissidia Duellum Final Fantasy DLC & Unlockables",
-      "subtitle": "Track every major post-launch reward path",
+      "title": "dissidiaduellumfinalfantasy roadmap",
+      "subtitle": "Follow live-service updates and prepare for each content wave",
       "quickFacts": [
         {
-          "label": "Ringside Pass Seasons",
-          "value": "6"
+          "label": "Roadmap Type",
+          "value": "Live seasonal updates"
         },
         {
-          "label": "Tiers Per Season",
-          "value": "40"
+          "label": "Focus",
+          "value": "Characters + balance + events"
         },
         {
-          "label": "Free Track Rewards",
-          "value": "60"
-        },
-        {
-          "label": "Total Rewards",
-          "value": "120"
+          "label": "Player Action",
+          "value": "Pre-farm tickets and currency"
         }
       ],
       "seasons": [
         {
-          "season": "Season 1",
-          "release": "March 6, 2026"
+          "season": "Wave 1",
+          "release": "Character and mode stabilization"
         },
         {
-          "season": "Season 2",
-          "release": "April 2026"
+          "season": "Wave 2",
+          "release": "Roster expansion and reward refresh"
         },
         {
-          "season": "Season 3",
-          "release": "June 2026"
+          "season": "Wave 3",
+          "release": "Balance pass and event rotation"
         },
         {
-          "season": "Season 4",
-          "release": "July 2026"
+          "season": "Wave 4",
+          "release": "Late-season ladder acceleration"
         },
         {
-          "season": "Season 5",
-          "release": "September 2026"
+          "season": "Wave 5",
+          "release": "New challenge chapters"
         },
         {
-          "season": "Season 6",
-          "release": "October 2026"
+          "season": "Wave 6",
+          "release": "Major roadmap recap and prep cycle"
         }
       ],
       "editionPacks": [
         {
-          "name": "King of Kings Edition Pack",
+          "name": "Upcoming Characters",
           "includes": [
-            "Triple H '98",
-            "Stephanie McMahon '00",
-            "Triple H Signature Taunt"
+            "Track official reveal windows",
+            "Save targeted tickets by role",
+            "Plan comp upgrades ahead of launch"
           ]
         },
         {
-          "name": "Attitude Era Edition Pack",
+          "name": "Patch Note Checklist",
           "includes": [
-            "The Rock '99",
-            "Kane '98",
-            "Chyna '97",
-            "Stone Cold Steve Austin EVO Card",
-            "The Rock EVO Card",
-            "Raw Is War '98 arena"
+            "Review role balance deltas",
+            "Adjust burst rotation plans",
+            "Retest top two team comps"
           ]
         },
         {
-          "name": "Monday Night War Edition Pack",
+          "name": "Event Reward Plan",
           "includes": [
-            "Shawn Michaels DX",
-            "Macho Man Randy Savage '98",
-            "Rowdy Roddy Piper '98",
-            "WCW Thunder '98 arena"
+            "Claim limited challenge rewards",
+            "Prioritize account power rewards",
+            "Archive cosmetics at cycle end"
           ]
         },
         {
-          "name": "WrestleMania 42 Pack",
+          "name": "Competitive Prep",
           "includes": [
-            "WrestleMania 42 arena",
-            "WM42 Persona #1",
-            "WM42 Persona #2",
-            "WM42 Persona #3"
+            "Scrim in custom rooms",
+            "Align trio role calls",
+            "Finalize season-end ranked route"
           ]
         }
       ],
       "unlockExamples": [
         {
-          "name": "AJ Lee",
-          "source": "Showcase: What If Match #7"
+          "name": "Starter Carry Upgrade",
+          "source": "Early event reward line"
         },
         {
-          "name": "Alundra Blayze '94",
-          "source": "Ringside Pass #1 Free Track Tier 5"
+          "name": "Support Utility Unlock",
+          "source": "Season milestone node"
         },
         {
-          "name": "Andre The Giant",
-          "source": "Ringside Pass #1 Free Track Tier 4"
-        },
-        {
-          "name": "El Hijo del Vikingo",
-          "source": "Ringside Pass #1 Premium Track Tier 1"
-        },
-        {
-          "name": "Flammer",
-          "source": "Ringside Pass #1 Premium Track Tier 7"
-        },
-        {
-          "name": "Main Event R-Truth",
-          "source": "MyRISE"
-        },
-        {
-          "name": "Dusty Rhodes '89",
-          "source": "MyRISE"
-        },
-        {
-          "name": "Brock Lesnar '13",
-          "source": "Showcase: Historical Match #7"
+          "name": "Burst Combo Option",
+          "source": "Challenge completion set"
         }
       ]
     }
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Dissidia Duellum Final Fantasy",
+    "title": "dissidiaduellumfinalfantasy",
+    "titleHighlight": "FAQ",
+    "subtitle": "Fast answers for the core gameplay loop and progression path",
     "questions": [
       {
-        "question": "When is Dissidia Duellum Final Fantasy released?",
-        "answer": "Dissidia Duellum Final Fantasy standard edition releases on March 13, 2026. Deluxe editions get early access starting March 6, 2026."
+        "question": "How do I win faster in dissidiaduellumfinalfantasy?",
+        "answer": "In dissidiaduellumfinalfantasy, prioritize crystals, build Bravery, coordinate Burst timing, and convert that window into boss damage."
       },
       {
-        "question": "How many superstars are in Dissidia Duellum Final Fantasy?",
-        "answer": "Dissidia Duellum Final Fantasy features over 400 playable superstars, including legends, current roster, and DLC characters."
+        "question": "Which starter is best in dissidiaduellumfinalfantasy?",
+        "answer": "For dissidiaduellumfinalfantasy, Cloud is the easiest boss-pressure start, Warrior of Light is the safest team option, and Terra is the clean ranged learner."
       },
       {
-        "question": "What platforms is Dissidia Duellum Final Fantasy available on?",
-        "answer": "Dissidia Duellum Final Fantasy is available on PS5, Xbox Series X|S, Steam (PC), and Nintendo Switch 2."
+        "question": "Does dissidiaduellumfinalfantasy reroll matter?",
+        "answer": "Yes. dissidiaduellumfinalfantasy reroll quality matters because role-aligned early pulls create a much smoother first-week progression path."
       },
       {
-        "question": "How do I redeem Dissidia Duellum Final Fantasy locker codes?",
-        "answer": "Go to MyFACTION mode, select the Locker Code menu, and enter the code. Check our codes page for the latest active codes."
+        "question": "What should I train first in dissidiaduellumfinalfantasy?",
+        "answer": "Start dissidiaduellumfinalfantasy training with crystal rotation timing, burst-call coordination, and one stable three-player lineup."
       },
       {
-        "question": "What are the new match types in Dissidia Duellum Final Fantasy?",
-        "answer": "Dissidia Duellum Final Fantasy introduces 4 new match types including Inferno Match, Dumpster Match, Three Stages of Hell, and I Quit Match."
+        "question": "How often should I check the dissidiaduellumfinalfantasy roadmap?",
+        "answer": "Check the dissidiaduellumfinalfantasy roadmap at least once per week so you can pre-farm for incoming rewards and character updates."
       },
       {
-        "question": "What game modes are in Dissidia Duellum Final Fantasy?",
-        "answer": "Dissidia Duellum Final Fantasy includes MyGM, MyRISE, Universe Mode, Showcase (CM Punk), The Island, MyFACTION, and Creation Suite."
+        "question": "Where can I follow official dissidiaduellumfinalfantasy updates?",
+        "answer": "Follow official dissidiaduellumfinalfantasy updates via the Square Enix site, DDFF EN X account, and the App Store/Google Play pages."
       }
     ]
   },
   "cta": {
-    "title": "Ready for Dissidia Duellum Final Fantasy?",
-    "description": "Follow official channels and download the game on mobile to start your first boss race.",
-    "joinCommunity": "Follow on X (@DDFF_EN)",
-    "joinGame": "Download DDFF on App Store"
+    "title": "Ready for dissidiaduellumfinalfantasy?",
+    "description": "Use the module hub, lock your starter plan, and run your first coordinated boss race.",
+    "joinCommunity": "Follow Official DDFF Updates",
+    "joinGame": "Download on App Store & Google Play"
   },
   "footer": {
-    "title": "Dissidia Duellum Final Fantasy Wiki",
-    "description": "Your resource hub for Dissidia Duellum Final Fantasy character guides, roles, abilities, boss mechanics, and updates.",
+    "title": "dissidiaduellumfinalfantasy Wiki",
+    "description": "Guide hub for dissidiaduellumfinalfantasy beginner flow, team comps, abilities, boss routing, and roadmap tracking.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Official Site",
-    "twitter": "X / Twitter",
-    "reddit": "Reddit",
-    "youtube": "YouTube Trailer",
-    "instagram": "Facebook",
-    "about": "About",
+    "discord": "Official Website",
+    "twitter": "X / DDFF_EN",
+    "reddit": "Reddit Community",
+    "youtube": "Launch Trailer",
+    "instagram": "Official Facebook",
+    "about": "Game Overview",
     "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Dissidia Duellum Final Fantasy Wiki. Unofficial and not affiliated with Square Enix.",
-    "disclaimer": "All game names, logos, and assets belong to their respective owners."
+    "terms": "Terms of Use",
+    "copyrightNotice": "Copyright Notice",
+    "copyright": "© 2026 dissidiaduellumfinalfantasy.wiki. Unofficial fan resource.",
+    "disclaimer": "All trademarks, game names, and assets belong to their respective owners."
   }
 }

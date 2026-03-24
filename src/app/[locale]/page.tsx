@@ -433,7 +433,7 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div className="p-6 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300">
-              <h3 className="text-2xl font-bebas mb-6 text-[hsl(var(--nav-theme))]">Men&apos;s Top 10</h3>
+              <h3 className="text-2xl font-bebas mb-6 text-[hsl(var(--nav-theme))]">Role Impact Top 10</h3>
               <div className="space-y-3">
                 {t.modules.ratings.menTopRated.map((superstar: any, i: number) => (
                   <div key={i} className="flex items-center justify-between p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors group">
@@ -447,7 +447,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="p-6 rounded-xl bg-card border-2 border-border hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300">
-              <h3 className="text-2xl font-bebas mb-6 text-[hsl(var(--nav-theme))]">Women&apos;s Top 10</h3>
+              <h3 className="text-2xl font-bebas mb-6 text-[hsl(var(--nav-theme))]">Strategy Priority Top 10</h3>
               <div className="space-y-3">
                 {t.modules.ratings.womenTopRated.map((superstar: any, i: number) => (
                   <div key={i} className="flex items-center justify-between p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors group">
@@ -910,7 +910,9 @@ export default function HomePage() {
               <ul className="space-y-2 text-sm">
                 <li>
                   <Link
-                    href="/about"
+                    href="https://www.square-enix.com/ddff/en/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.about}
@@ -918,7 +920,9 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="/privacy-policy"
+                    href="https://www.square-enix.com/privacy/en/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.privacy}
@@ -926,7 +930,9 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="/terms-of-service"
+                    href="https://www.square-enix-games.com/en_US/documents/terms-of-use"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.terms}
@@ -934,7 +940,9 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link
-                    href="/copyright"
+                    href="https://www.square-enix.com/na/legal/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
                     {t.footer.copyrightNotice}
