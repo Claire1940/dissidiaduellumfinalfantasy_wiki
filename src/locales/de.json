@@ -57,95 +57,95 @@
     "description": "See the 3v3 Team Boss Battle Arena loop: purify crystals, build Bravery, Burst, and finish the boss."
   },
   "tools": {
-    "title": "dissidiaduellumfinalfantasy",
+    "title": "Dissidia Duellum Final Fantasy",
     "titleHighlight": "Homepage Navigation",
     "subtitle": "Jump to each module and keep your DDFF progression on track",
     "cards": [
       {
         "icon": "Calendar",
-        "title": "dissidiaduellumfinalfantasy beginner guide",
+        "title": "Dissidia Duellum Final Fantasy beginner guide",
         "description": "Start strong with the 4-step win loop and first-match checklist"
       },
       {
         "icon": "Users",
-        "title": "dissidiaduellumfinalfantasy tier list",
+        "title": "Dissidia Duellum Final Fantasy tier list",
         "description": "Goal-based rankings for beginners, boss pressure, and team value"
       },
       {
         "icon": "TrendingUp",
-        "title": "dissidiaduellumfinalfantasy characters",
+        "title": "Dissidia Duellum Final Fantasy characters",
         "description": "Role-based roster hub with passives, unique abilities, and tags"
       },
       {
         "icon": "Gamepad2",
-        "title": "dissidiaduellumfinalfantasy reroll guide",
+        "title": "Dissidia Duellum Final Fantasy reroll guide",
         "description": "Decide when to keep, when to reroll, and where to spend tickets"
       },
       {
         "icon": "Flame",
-        "title": "dissidiaduellumfinalfantasy team comps",
+        "title": "Dissidia Duellum Final Fantasy team comps",
         "description": "Build boss-rush, control, and safe ranked lineups"
       },
       {
         "icon": "Film",
-        "title": "dissidiaduellumfinalfantasy roles guide",
+        "title": "Dissidia Duellum Final Fantasy roles guide",
         "description": "Master melee, ranged, agile, and support responsibilities"
       },
       {
         "icon": "Briefcase",
-        "title": "dissidiaduellumfinalfantasy abilities guide",
+        "title": "Dissidia Duellum Final Fantasy abilities guide",
         "description": "Configure burst chains and ability priorities by role"
       },
       {
         "icon": "Trophy",
-        "title": "dissidiaduellumfinalfantasy boss guide",
+        "title": "Dissidia Duellum Final Fantasy boss guide",
         "description": "Convert Bravery windows into fast boss damage phases"
       },
       {
         "icon": "Globe",
-        "title": "dissidiaduellumfinalfantasy crystal guide",
+        "title": "Dissidia Duellum Final Fantasy crystal guide",
         "description": "Control spawn sites and optimize your Bravery economy"
       },
       {
         "icon": "Palette",
-        "title": "dissidiaduellumfinalfantasy game modes",
+        "title": "Dissidia Duellum Final Fantasy game modes",
         "description": "Pick the right mode for learning, ranking, and solo progress"
       },
       {
         "icon": "Map",
-        "title": "dissidiaduellumfinalfantasy season rewards",
+        "title": "Dissidia Duellum Final Fantasy season rewards",
         "description": "Track season points, ladders, and reward milestones"
       },
       {
         "icon": "Layers",
-        "title": "dissidiaduellumfinalfantasy story guide",
+        "title": "Dissidia Duellum Final Fantasy story guide",
         "description": "Follow the modern Tokyo setting and main story beats"
       },
       {
         "icon": "Gift",
-        "title": "dissidiaduellumfinalfantasy challenges guide",
+        "title": "Dissidia Duellum Final Fantasy challenges guide",
         "description": "Practice solo challenge battles while earning rewards and season points"
       },
       {
         "icon": "Monitor",
-        "title": "dissidiaduellumfinalfantasy controls guide",
+        "title": "Dissidia Duellum Final Fantasy controls guide",
         "description": "Tune touch, controller, and semi-auto settings for consistent execution"
       },
       {
         "icon": "Building",
-        "title": "dissidiaduellumfinalfantasy customization guide",
+        "title": "Dissidia Duellum Final Fantasy customization guide",
         "description": "Optimize outfits, memorias, BGM, and profile tools without slowing growth"
       },
       {
         "icon": "Package",
-        "title": "dissidiaduellumfinalfantasy roadmap",
+        "title": "Dissidia Duellum Final Fantasy roadmap",
         "description": "Track launch roster, season cadence, and the April-May character waves"
       }
     ]
   },
   "modules": {
     "releaseEditions": {
-      "title": "dissidiaduellumfinalfantasy beginner guide",
+      "title": "Dissidia Duellum Final Fantasy beginner guide",
       "subtitle": "Win your first sessions with a clean crystal-to-boss game plan",
       "quickFacts": [
         {
@@ -226,7 +226,7 @@
       ]
     },
     "roster": {
-      "title": "dissidiaduellumfinalfantasy tier list",
+      "title": "Dissidia Duellum Final Fantasy tier list",
       "subtitle": "Rankings by objective, not a single flat ladder",
       "stats": [
         {
@@ -286,7 +286,7 @@
       ]
     },
     "ratings": {
-      "title": "dissidiaduellumfinalfantasy characters",
+      "title": "Dissidia Duellum Final Fantasy characters",
       "subtitle": "Launch roster snapshot with role identity and game impact",
       "menTopRated": [
         {
@@ -379,7 +379,7 @@
       ]
     },
     "controls": {
-      "title": "dissidiaduellumfinalfantasy reroll guide",
+      "title": "Dissidia Duellum Final Fantasy reroll guide",
       "subtitle": "Build a first-week account that matches your planned main",
       "platforms": [
         {
@@ -440,7 +440,7 @@
       ]
     },
     "matchTypes": {
-      "moduleName": "dissidiaduellumfinalfantasy team comps",
+      "moduleName": "Dissidia Duellum Final Fantasy team comps",
       "title": "Best Team Comps for Launch",
       "subtitle": "Build around crystal control, Burst timing, and boss damage.",
       "intro": "Winning teams do three things well: build Bravery fast, enter Burst on time, and convert that window into boss damage. These launch-week comps use the official launch roster and role kits.",
@@ -554,7 +554,7 @@
       ]
     },
     "showcase": {
-      "moduleName": "dissidiaduellumfinalfantasy roles guide",
+      "moduleName": "Dissidia Duellum Final Fantasy roles guide",
       "title": "Four Roles Explained",
       "subtitle": "Know where to stand, what to do, and which launch characters fit each job.",
       "intro": "Every fighter belongs to one of four roles: Melee, Ranged, Agile, or Support. The fastest way to improve is to play your lane correctly before chasing flashy fights.",
@@ -614,7 +614,7 @@
       }
     },
     "mygm": {
-      "moduleName": "dissidiaduellumfinalfantasy abilities guide",
+      "moduleName": "Dissidia Duellum Final Fantasy abilities guide",
       "title": "Abilities and Loadouts",
       "subtitle": "Mix signature tools, general skills, and role strengths to shape your playstyle.",
       "intro": "Each character equips five special abilities. Some are tied to that fighter, while others come from a broader pool of general skills.",
@@ -729,7 +729,7 @@
       ]
     },
     "myrise": {
-      "moduleName": "dissidiaduellumfinalfantasy boss guide",
+      "moduleName": "Dissidia Duellum Final Fantasy boss guide",
       "title": "How to Win the Boss Race",
       "subtitle": "Farm Bravery, trigger Burst, and convert the window before the other team does.",
       "intro": "This game is not won by dueling forever. The real objective is to enter Burst on time and break the boss faster than the enemy team.",
@@ -797,7 +797,7 @@
       ]
     },
     "universeMode": {
-      "moduleName": "dissidiaduellumfinalfantasy crystal guide",
+      "moduleName": "Dissidia Duellum Final Fantasy crystal guide",
       "title": "Dissidia Duellum Final Fantasy Crystal Guide",
       "eyebrow": "Understand the match economy",
       "intro": "Every match revolves around one core loop: purify crystals, build Bravery, unleash Bravery Burst, and race to defeat the boss before the enemy team.",
@@ -874,7 +874,7 @@
       ]
     },
     "communityCreations": {
-      "moduleName": "dissidiaduellumfinalfantasy game modes",
+      "moduleName": "Dissidia Duellum Final Fantasy game modes",
       "title": "Dissidia Duellum Final Fantasy Game Modes",
       "eyebrow": "Pick the right way to play",
       "intro": "DDFF supports competitive, casual, and solo-friendly play. The main modes are built around climbing, practicing, and collecting rewards in different ways.",
@@ -970,7 +970,7 @@
       ]
     },
     "theIsland": {
-      "moduleName": "dissidiaduellumfinalfantasy season rewards",
+      "moduleName": "Dissidia Duellum Final Fantasy season rewards",
       "title": "Dissidia Duellum Final Fantasy Season Rewards",
       "eyebrow": "Progress through the monthly season loop",
       "intro": "Seasons run for about one month. Play battles, earn Season Points, and use them to claim rewards that expand your roster, story, and account progression.",
@@ -1064,7 +1064,7 @@
       ]
     },
     "myfaction": {
-      "moduleName": "dissidiaduellumfinalfantasy story guide",
+      "moduleName": "Dissidia Duellum Final Fantasy story guide",
       "title": "Dissidia Duellum Final Fantasy Story Guide",
       "eyebrow": "A new DISSIDIA story in modern Tokyo",
       "intro": "A giant crystal appears in Tokyo and becomes part of everyday life. When strange monsters begin to emerge from the crystal's corruption, mysterious warriors answer the city's cry for help.",
@@ -1139,7 +1139,7 @@
       ]
     },
     "lockerCodes": {
-      "moduleName": "dissidiaduellumfinalfantasy challenges guide",
+      "moduleName": "Dissidia Duellum Final Fantasy challenges guide",
       "title": "Dissidia Duellum Final Fantasy Challenges Guide",
       "eyebrow": "Solo Practice & Rewards",
       "intro": "Challenge Battles are the best place to learn a character at your own pace while still earning useful rewards and progressing through the season.",
@@ -1193,7 +1193,7 @@
       }
     },
     "pcRequirements": {
-      "moduleName": "dissidiaduellumfinalfantasy controls guide",
+      "moduleName": "Dissidia Duellum Final Fantasy controls guide",
       "title": "Dissidia Duellum Final Fantasy Controls Guide",
       "eyebrow": "Touch, Controller, and Semi-Auto",
       "intro": "DDFF is built for fast mobile play, but it also gives players room to tune controls, practice in Training Mode, and switch to controller support.",
@@ -1249,7 +1249,7 @@
       ]
     },
     "arenas": {
-      "moduleName": "dissidiaduellumfinalfantasy customization guide",
+      "moduleName": "Dissidia Duellum Final Fantasy customization guide",
       "title": "Dissidia Duellum Final Fantasy Customization Guide",
       "eyebrow": "Style, Stats, Music, and Social Features",
       "intro": "Customization in DDFF is more than cosmetics. You can change outfits, equip Memorias for stat boosts, collect music, tune support setups, and personalize your profile.",
@@ -1324,7 +1324,7 @@
       ]
     },
     "dlcUnlockables": {
-      "moduleName": "dissidiaduellumfinalfantasy roadmap",
+      "moduleName": "Dissidia Duellum Final Fantasy roadmap",
       "title": "Dissidia Duellum Final Fantasy Roadmap",
       "eyebrow": "Launch Content, Seasons, and Upcoming Characters",
       "intro": "DISSIDIA DUELLUM FINAL FANTASY is live now on iOS and Android, with a launch roster of 10 characters and a two-month post-launch campaign adding 6 more fighters.",
@@ -1488,45 +1488,45 @@
     }
   },
   "faq": {
-    "title": "dissidiaduellumfinalfantasy",
+    "title": "Dissidia Duellum Final Fantasy",
     "titleHighlight": "FAQ",
     "subtitle": "Fast answers for the core gameplay loop and progression path",
     "questions": [
       {
-        "question": "How do I win faster in dissidiaduellumfinalfantasy?",
-        "answer": "In dissidiaduellumfinalfantasy, prioritize crystals, build Bravery, coordinate Burst timing, and convert that window into boss damage."
+        "question": "How do I win faster in Dissidia Duellum Final Fantasy?",
+        "answer": "In Dissidia Duellum Final Fantasy, prioritize crystals, build Bravery, coordinate Burst timing, and convert that window into boss damage."
       },
       {
-        "question": "Which starter is best in dissidiaduellumfinalfantasy?",
-        "answer": "For dissidiaduellumfinalfantasy, Cloud is the easiest boss-pressure start, Warrior of Light is the safest team option, and Terra is the clean ranged learner."
+        "question": "Which starter is best in Dissidia Duellum Final Fantasy?",
+        "answer": "For Dissidia Duellum Final Fantasy, Cloud is the easiest boss-pressure start, Warrior of Light is the safest team option, and Terra is the clean ranged learner."
       },
       {
-        "question": "Does dissidiaduellumfinalfantasy reroll matter?",
-        "answer": "Yes. dissidiaduellumfinalfantasy reroll quality matters because role-aligned early pulls create a much smoother first-week progression path."
+        "question": "Does Dissidia Duellum Final Fantasy reroll matter?",
+        "answer": "Yes. Dissidia Duellum Final Fantasy reroll quality matters because role-aligned early pulls create a much smoother first-week progression path."
       },
       {
-        "question": "What should I train first in dissidiaduellumfinalfantasy?",
-        "answer": "Start dissidiaduellumfinalfantasy training with crystal rotation timing, burst-call coordination, and one stable three-player lineup."
+        "question": "What should I train first in Dissidia Duellum Final Fantasy?",
+        "answer": "Start Dissidia Duellum Final Fantasy training with crystal rotation timing, burst-call coordination, and one stable three-player lineup."
       },
       {
-        "question": "How often should I check the dissidiaduellumfinalfantasy roadmap?",
-        "answer": "Check the dissidiaduellumfinalfantasy roadmap at least once per week so you can pre-farm for incoming rewards and character updates."
+        "question": "How often should I check the Dissidia Duellum Final Fantasy roadmap?",
+        "answer": "Check the Dissidia Duellum Final Fantasy roadmap at least once per week so you can pre-farm for incoming rewards and character updates."
       },
       {
-        "question": "Where can I follow official dissidiaduellumfinalfantasy updates?",
-        "answer": "Follow official dissidiaduellumfinalfantasy updates via the Square Enix site, DDFF EN X account, and the App Store/Google Play pages."
+        "question": "Where can I follow official Dissidia Duellum Final Fantasy updates?",
+        "answer": "Follow official Dissidia Duellum Final Fantasy updates via the Square Enix site, DDFF EN X account, and the App Store/Google Play pages."
       }
     ]
   },
   "cta": {
-    "title": "Ready for dissidiaduellumfinalfantasy?",
+    "title": "Ready for Dissidia Duellum Final Fantasy?",
     "description": "Use the module hub, lock your starter plan, and run your first coordinated boss race.",
     "joinCommunity": "Follow Official DDFF Updates",
     "joinGame": "Download on App Store & Google Play"
   },
   "footer": {
-    "title": "dissidiaduellumfinalfantasy Wiki",
-    "description": "Guide hub for dissidiaduellumfinalfantasy beginner flow, team comps, abilities, boss routing, and roadmap tracking.",
+    "title": "Dissidia Duellum Final Fantasy Wiki",
+    "description": "Guide hub for Dissidia Duellum Final Fantasy beginner flow, team comps, abilities, boss routing, and roadmap tracking.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
@@ -1539,7 +1539,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
     "copyrightNotice": "Copyright Notice",
-    "copyright": "© 2026 dissidiaduellumfinalfantasy.wiki. Unofficial fan resource.",
+    "copyright": "© 2026 Dissidia Duellum Final Fantasy.wiki. Unofficial fan resource.",
     "disclaimer": "All trademarks, game names, and assets belong to their respective owners."
   }
 }
