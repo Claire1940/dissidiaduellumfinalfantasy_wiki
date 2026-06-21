@@ -1,5 +1,6 @@
 'use client'
 
+import { setRequestLocale } from 'next-intl/server'
 import { useEffect, Suspense, lazy } from 'react'
 import Link from 'next/link'
 import {
